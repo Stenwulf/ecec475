@@ -1,0 +1,25 @@
+Warning: Design 'fpu' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : constraint
+Design : fpu
+Version: M-2016.12-SP1
+Date   : Mon Mar  6 01:29:20 2017
+****************************************
+
+    Constraint                                     Slack
+    ----------------------------------------------------
+    max_leakage_power                           -1508714752.00
+                                                          (VIOLATED)
+
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    min_capacitance                                  0.00 (MET)
+    max_transition                                   0.28 (VIOLATED)
+    max_capacitance                                  0.00 (MET)
+    max_leakage_power                            1508714752.00
+                                                          (VIOLATED)
+
+
+1

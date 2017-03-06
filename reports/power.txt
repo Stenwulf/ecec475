@@ -1,0 +1,92 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : fpu
+Version: M-2016.12-SP1
+Date   : Mon Mar  6 01:29:20 2017
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_max (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db)
+
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fpu                    540000            saed90nm_max
+bw_r_rf16x160          140000            saed90nm_max
+fpu_add                140000            saed90nm_max
+fpu_mul                280000            saed90nm_max
+fpu_div                70000             saed90nm_max
+cluster_header         ForQA             saed90nm_max
+fpu_add_frac_dp        140000            saed90nm_max
+fpu_mul_frac_dp        35000             saed90nm_max
+mul64                  140000            saed90nm_max
+fpu_div_frac_dp        35000             saed90nm_max
+bw_u1_syncff_4x        ForQA             saed90nm_max
+bw_u1_scanl_2x         ForQA             saed90nm_max
+mul_array1_1           35000             saed90nm_max
+mul_array1_0           35000             saed90nm_max
+mul_array2             16000             saed90nm_max
+dff_SIZE97             8000              saed90nm_max
+dff_SIZE98             8000              saed90nm_max
+dff_SIZE1_2            ForQA             saed90nm_max
+dff_SIZE3_0            ForQA             saed90nm_max
+mul_bodec_0            ForQA             saed90nm_max
+dff_SIZE32_0           8000              saed90nm_max
+mul_bodec_3            8000              saed90nm_max
+mul_bodec_2            8000              saed90nm_max
+mul_bodec_1            8000              saed90nm_max
+dff_SIZE3_15           ForQA             saed90nm_max
+dff_SIZE3_14           ForQA             saed90nm_max
+dff_SIZE3_13           ForQA             saed90nm_max
+dff_SIZE3_12           ForQA             saed90nm_max
+dff_SIZE3_11           ForQA             saed90nm_max
+dff_SIZE3_10           ForQA             saed90nm_max
+dff_SIZE3_9            ForQA             saed90nm_max
+dff_SIZE3_8            ForQA             saed90nm_max
+dff_SIZE3_7            ForQA             saed90nm_max
+dff_SIZE3_6            ForQA             saed90nm_max
+dff_SIZE3_5            ForQA             saed90nm_max
+dff_SIZE3_4            ForQA             saed90nm_max
+dff_SIZE3_3            ForQA             saed90nm_max
+dff_SIZE3_2            ForQA             saed90nm_max
+dff_SIZE3_1            ForQA             saed90nm_max
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 901.8160 uW   (62%)
+  Net Switching Power  = 541.7099 uW   (38%)
+                         ---------
+Total Dynamic Power    =   1.4435 mW  (100%)
+
+Cell Leakage Power     =   1.3539 mW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential        77.5916           33.2880        5.6696e+08          677.8410  (  24.26%)
+combinational    824.2227          505.3099        7.8696e+08        2.1165e+03  (  75.74%)
+--------------------------------------------------------------------------------------------------
+Total            901.8143 uW       538.5979 uW     1.3539e+09 pW     2.7943e+03 uW
+1

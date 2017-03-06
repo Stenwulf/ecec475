@@ -1,0 +1,5 @@
+set file_lib "/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library"
+set search_path "$file_lib/synopsys/models ./iscas_benchmarks ./scripts"
+set synthetic_library "dw_foundation.sldb"
+set target_library "saed90nm_max.db"
+set link_library "* $target_library $synthetic_library saed90nm_min.db saed90nm_typ.db"
