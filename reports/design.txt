@@ -1,26 +1,10 @@
-Information: Building the design 'synchronizer_asr'. (HDL-193)
-Warning: Cannot find the design 'synchronizer_asr' in the library 'WORK'. (LBR-1)
-Information: Building the design 'dp_mux2es' instantiated from design 'mul64' with
-	the parameters "97". (HDL-193)
-Warning: Cannot find the design 'dp_mux2es' in the library 'WORK'. (LBR-1)
-Information: Building the design 'dp_mux2es' instantiated from design 'mul64' with
-	the parameters "98". (HDL-193)
-Warning: Cannot find the design 'dp_mux2es' in the library 'WORK'. (LBR-1)
-Information: Building the design 'dp_mux2es'. (HDL-193)
-Warning: Cannot find the design 'dp_mux2es' in the library 'WORK'. (LBR-1)
-Information: Building the design 'dp_mux2es' instantiated from design 'mul64' with
-	the parameters "3". (HDL-193)
-Warning: Cannot find the design 'dp_mux2es' in the library 'WORK'. (LBR-1)
-Warning: Unable to resolve reference 'synchronizer_asr' in 'cluster_header'. (LINK-5)
-Warning: Unable to resolve reference 'dp_mux2es' in 'mul64'. (LINK-5)
 Information: Updating design information... (UID-85)
-Warning: Design 'fpu' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
  
 ****************************************
 Report : design
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 01:29:19 2017
+Date   : Mon Mar  6 13:47:06 2017
 ****************************************
 
 Design allows ideal nets on clock nets.
@@ -111,6 +95,4 @@ Required Licenses:
 Design Parameters:
 
     None specified.
-
-Information: This design contains black box (unknown) components. (RPT-8)
 1

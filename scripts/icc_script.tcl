@@ -8,9 +8,10 @@ set mw_logic1_net VDD
 set_tlu_plus_files -max_tluplus /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/star_rcxt/tluplus/saed90nm_1p9m_1t_Cmax.tluplus -min_tluplus /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/star_rcxt/tluplus/saed90nm_1p9m_1t_Cmin.tluplus -tech2itf_map /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/tech/tech2itf.map
 
 create_mw_lib -technology /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/tech/astroTechFile.tf  -mw_reference_library /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm/ fpu_design.mw
+
 open_mw_lib fpu_design.mw/
 
-import_designs "/home/DREXEL/bts37/ASIC/project/OpenSPARC/design/work/fpu.ddc" -format ddc -top "fpu" -cel "fpu"
+import_designs "./work/fpu.ddc" -format ddc -top "fpu" -cel "fpu"
 
 create_floorplan -core_utilization 0.5 -start_first_row -left_io2core 5.0 -bottom_io2core 5.0 -right_io2core 5.0 -top_io2core 5.0
 derive_pg_connection -power_net VDD -ground_net VSS

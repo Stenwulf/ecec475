@@ -1,10 +1,9 @@
-Warning: Design 'fpu' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : clock_skew
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 01:29:20 2017
+Date   : Mon Mar  6 13:47:06 2017
 ****************************************
 
                  Rise      Fall  Min Rise  Min fall        Uncertainty
