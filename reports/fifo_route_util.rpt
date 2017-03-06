@@ -4,7 +4,7 @@ Warning: Metal 9 tracks may not cover core area at the top side. (APL-027)
   Report : Chip Summary
   Design : fpu
   Version: L-2016.03-SP5-1
-  Date   : Mon Mar  6 15:06:54 2017
+  Date   : Mon Mar  6 15:25:05 2017
 ****************************************
 Std cell utilization: 50.27%  (441469/(878280-0))
 (Non-fixed + Fixed)
@@ -30,7 +30,7 @@ Physical DB scale:    1000 db_unit = 1 um
   Report : pnet options
   Design : fpu
   Version: L-2016.03-SP5-1
-  Date   : Mon Mar  6 15:06:54 2017
+  Date   : Mon Mar  6 15:25:05 2017
 ****************************************
 
 

@@ -3,12 +3,16 @@
 Report : path_group
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 13:47:07 2017
+Date   : Mon Mar  6 15:58:54 2017
 ****************************************
 
                         Critical
 Group Name    Weight    Range
 --------------------------------------------------------------------------------
 **default**   1.00      0.00                 
+gclk          1.00      0.00                 
+
+Path Group gclk:
+	-to      gclk
 
 1

@@ -1,0 +1,114 @@
+Loading db file '/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db'
+Loading db file '/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_min.db'
+Loading db file '/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db'
+Loading db file '/opt/synopsys/2016/icc/libraries/syn/gtech.db'
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Warning: The 'CGLPPSX2' cell in the '/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX4' cell in the '/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Information: Loading local_link_library attribute {saed90nm_typ.db}. (MWDC-290)
+
+  Linking design 'fpu'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (11 designs)              fpu_extracted.CEL, etc
+  saed90nm_typ (library)      /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db
+  saed90nm_max (library)      /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db
+  dw_foundation.sldb (library) /opt/synopsys/2016/icc/libraries/syn/dw_foundation.sldb
+  saed90nm_min (library)      /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_min.db
+
+Information: The design has horizontal rows, and Y-symmetry has been used for sites. (MWDC-217)
+Floorplan loading succeeded.
+
+Warning: Metal 9 tracks may not cover core area at the top side. (APL-027)
+  Loading design 'fpu'
+
+
+Warning: Port 'pcx_fpio_data_px2[117]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[111]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[110]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[109]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[108]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[107]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[106]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[105]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[104]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[103]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[102]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[101]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[100]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[99]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[98]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[97]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[96]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[95]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[94]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[93]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[92]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[91]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[90]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[89]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[88]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[87]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[86]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[85]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[84]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[83]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[82]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[81]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[80]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[71]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[70]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[69]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'pcx_fpio_data_px2[68]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'si' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+
+
+Information: Library Manufacturing Grid(GridResolution) : 5
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1000.000 kohm and in the Milkyway design library it is 1.000 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+Warning: Mismatch in the main and the Milkyway library capacitance units. In the main library it is 0.001 pf and in the Milkyway design library it is 1.000 pf. Check and correct the capacitance units in the .tf and .db files. (PSYN-477)
+Warning: Inconsistent library data found for layer PO. (RCEX-018)
+
+TLU+ File = /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/star_rcxt/tluplus/saed90nm_1p9m_1t_Cmax.tluplus
+TLU+ File = /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/star_rcxt/tluplus/saed90nm_1p9m_1t_Cmin.tluplus
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is detail route TLU+. (RCEX-015)
+Information: Start mixed mode parasitic extraction. (RCEX-023)
+Information: Start rc extraction...
+Information: Parasitic source is LPE. (RCEX-040)
+Information: Parasitic mode is RealRC. (RCEX-041)
+Information: Using virtual shield extraction. (RCEX-081)
+Information: Extraction mode is MIN_MAX. (RCEX-042)
+Information: Extraction derate is 125/125/125. (RCEX-043)
+Information: Coupling capacitances are lumped to ground. (RCEX-044)
+Information: Start back annotation for parasitic extraction. (RCEX-023)
+Information: End back annotation for parasitic extraction. (RCEX-023)
+Information: Start timing update for parasitic extraction. (RCEX-023)
+Information: End timing update for parasitic extraction. (RCEX-023)
+Information: End parasitic extraction. (RCEX-023)
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : clocks
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar  6 15:11:45 2017
+****************************************
+
+No clocks in this design.
+
+1

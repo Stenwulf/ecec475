@@ -1,10 +1,11 @@
 Information: Updating design information... (UID-85)
+Warning: Design 'fpu' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
  
 ****************************************
 Report : design
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 13:47:06 2017
+Date   : Mon Mar  6 15:58:52 2017
 ****************************************
 
 Design allows ideal nets on clock nets.

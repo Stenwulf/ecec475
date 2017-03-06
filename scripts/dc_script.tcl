@@ -26,6 +26,8 @@ set default_clock_transition 0.04
 
 set clk_list {{ gclk 1200.0 0.100 0.100 0.040 }}
 
+create_clock -period 2 [get_ports gclk]
+
 check_design
 check_timing
 report_timing_requirements
