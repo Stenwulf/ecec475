@@ -36,6 +36,7 @@ place_opt -effort low -area_recovery -power
 preroute_standard_cells -remove_floating_pieces
 
 clock_opt -only_cts -no_clock_route
+route_zrt_group -all_clock_nets -reuse_existing_global_route true
 
 route_opt -initial_route_only
 route_opt -skip_initial_route -effort medium

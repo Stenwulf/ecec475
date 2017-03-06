@@ -18,10 +18,13 @@ link
 write -hier -f -ddc -output -unmapped/fpu.ddc
 read_ddc unmapped/fpu.ddc
 
-create_clock -period 2 CK
-set_clock_latency 0.4 [get_clocks CK]
-set_clock_uncertainty  0.05  [get_port CK]
-set_clock_transition 0.1 [get_clocks CK]
+set default_clk gclk
+set default_clk_freq 1200
+set default_setup_skew 0.1
+set default_hold_skew 0.1
+set default_clock_transition 0.04
+
+set clk_list {{ gclk 1200.0 0.100 0.100 0.040 }}
 
 check_design
 check_timing
