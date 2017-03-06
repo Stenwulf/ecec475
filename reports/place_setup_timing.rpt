@@ -1,0 +1,41 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar  6 15:07:00 2017
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 125/125/125
+
+Information: Percent of Arnoldi-based delays = 27.69%
+
+  Startpoint: global_shift_enable
+              (input port)
+  Endpoint: so (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  global_shift_enable (in)                 0.00 @     0.00 f
+  U1488/Z (NBUFFX8)                        0.22 @     0.22 f
+  U1489/ZN (INVX1)                         0.25 @     0.47 r
+  U2324/Q (OA222X1)                        0.20 @     0.66 r
+  so (out)                                 0.00 &     0.66 r
+  data arrival time                                   0.66
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

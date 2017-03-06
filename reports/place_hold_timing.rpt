@@ -1,0 +1,41 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar  6 15:07:00 2017
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 125/125/125
+
+Information: Percent of Arnoldi-based delays = 27.69%
+
+  Startpoint: ctu_tst_scan_disable
+              (input port)
+  Endpoint: so (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  ctu_tst_scan_disable (in)                0.00 @     0.00 r
+  U2324/Q (OA222X1)                        0.09 @     0.09 r
+  so (out)                                 0.00 &     0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

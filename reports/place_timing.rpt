@@ -1,0 +1,45 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar  6 14:43:36 2017
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 125/125/125
+
+Information: Percent of Arnoldi-based delays = 26.39%
+
+  Startpoint: global_shift_enable
+              (input port)
+  Endpoint: so (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  global_shift_enable (in)                 0.00 @     0.00 r
+  U1594/Z (NBUFFX32)                       0.61 @     0.61 r
+  U1629/ZN (INVX2)                         0.25 @     0.86 f
+  U1630/Z (DELLN2X2)                       0.52 @     1.38 f
+  U1640/Z (DELLN1X2)                       0.33 @     1.71 f
+  U2324/Q (OA222X1)                        0.18 @     1.88 f
+  so (out)                                 0.01 @     1.89 f
+  data arrival time                                   1.89
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

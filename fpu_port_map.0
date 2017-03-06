@@ -1,0 +1,75 @@
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[26]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[26]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[26]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[26]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[26]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN0 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[26]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN0 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[44]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[44]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[44]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[44]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[44]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN1 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[44]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN1 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[46]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[46]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[46]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[46]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[46]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN2 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[46]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN2 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[48]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[48]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[48]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[48]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[48]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN3 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[48]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN3 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[49]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[49]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[49]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[49]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[49]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN4 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[49]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN4 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[51]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[51]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[51]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[51]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[51]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN5 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[51]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN5 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[63]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[63]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[63]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[63]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[63]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN6 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[63]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN6 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[0]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[0]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[0]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[0]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[0]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN7 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[0]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN7 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[1]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[1]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[1]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[1]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[1]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN8 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[1]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN8 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[2]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[2]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[2]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[2]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[2]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN9 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[2]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN9 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[3]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[3]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[3]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[3]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[3]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN10 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[3]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN10 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[4]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a0/a[4]
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[4]   $svf_impl/fpu/fpu_mul/i_m4stg_frac/ary1_a1/a[4]
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a0 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a0/a[4]  ~ fpu_mul/i_m4stg_frac/ary1_a0/IN11 }
+guide_constraints -body { fpu_mul/i_m4stg_frac/ary1_a1 } -equivalent { fpu_mul/i_m4stg_frac/ary1_a1/a[4]  ~ fpu_mul/i_m4stg_frac/ary1_a1/IN11 }
+guide_constraints -body { fpu_mul/fpu_mul_frac_dp } -equivalent { fpu_mul/fpu_mul_frac_dp/m6stg_step  ~ fpu_mul/fpu_mul_frac_dp/IN0 ~ fpu_mul/fpu_mul_frac_dp/IN1 }
+guide_constraints -body { fpu_add/fpu_add_frac_dp } -equivalent { fpu_add/fpu_add_frac_dp/a6stg_step  ~ fpu_add/fpu_add_frac_dp/IN2 }
+guide_constraints -body { fpu_add/fpu_add_frac_dp } -equivalent { fpu_add/fpu_add_frac_dp/a2stg_fracadd_frac2    fpu_add/fpu_add_frac_dp/IN3 }
+guide_constraints -body { bw_r_rf16x160 } -equivalent { bw_r_rf16x160/sehold  ~ bw_r_rf16x160/IN0 }
+guide_constraints -body { fpu_div } -equivalent { fpu_div/rclk    fpu_div/IN0   fpu_div/IN1   fpu_div/IN2   fpu_div/IN3   fpu_div/IN4 }
+guide_constraints -body { fpu_mul/fpu_mul_frac_dp } -equivalent { fpu_mul/fpu_mul_frac_dp/rclk_BAR  ~ fpu_mul/fpu_mul_frac_dp/IN2 }
+guide_constraints -body { fpu_mul/i_m4stg_frac } -equivalent { fpu_mul/i_m4stg_frac/rclk_BAR  ~ fpu_mul/i_m4stg_frac/IN0 }
+guide_constraints -body { bw_r_rf16x160 } -equivalent { bw_r_rf16x160/rd_clk    bw_r_rf16x160/IN1   bw_r_rf16x160/IN2   bw_r_rf16x160/IN3   bw_r_rf16x160/IN4   bw_r_rf16x160/IN5 }
+guide_constraints -body { fpu_mul } -equivalent { fpu_mul/rclk    fpu_mul/IN0   fpu_mul/IN1 }
+guide_constraints -body { fpu_add } -equivalent { fpu_add/rclk    fpu_add/IN0   fpu_add/IN1   fpu_add/IN2 }
+guide_constraints -body { fpu_add/fpu_add_frac_dp } -equivalent { fpu_add/fpu_add_frac_dp/rclk_BAR  ~ fpu_add/fpu_add_frac_dp/IN4 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_add/se_add_frac   $svf_impl/fpu/fpu_add/se_add_frac
+set_user_match   -inverted   $svf_ref/fpu/fpu_add/fpu_add_frac_dp/se   $svf_impl/fpu/fpu_add/fpu_add_frac_dp/se
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/se_mul64   $svf_impl/fpu/fpu_mul/se_mul64
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/se_mul   $svf_impl/fpu/fpu_mul/se_mul
+set_user_match   -inverted   $svf_ref/fpu/fpu_div/se   $svf_impl/fpu/fpu_div/se
+set_user_match   -inverted   $svf_ref/fpu/fpu_div/fpu_div_frac_dp/se   $svf_impl/fpu/fpu_div/fpu_div_frac_dp/se
+guide_constraints -body { fpu_mul/i_m4stg_frac } -equivalent { fpu_mul/i_m4stg_frac/se  ~ fpu_mul/i_m4stg_frac/IN1   fpu_mul/i_m4stg_frac/IN2   fpu_mul/i_m4stg_frac/IN3 }
+guide_constraints -body { fpu_mul/fpu_mul_frac_dp } -equivalent { fpu_mul/fpu_mul_frac_dp/se  ~ fpu_mul/fpu_mul_frac_dp/IN3   fpu_mul/fpu_mul_frac_dp/IN4   fpu_mul/fpu_mul_frac_dp/IN5 }
+guide_constraints -body { fpu_add/fpu_add_frac_dp } -equivalent { fpu_add/fpu_add_frac_dp/se  ~ fpu_add/fpu_add_frac_dp/IN5 ~ fpu_add/fpu_add_frac_dp/IN6 ~ fpu_add/fpu_add_frac_dp/IN7 ~ fpu_add/fpu_add_frac_dp/IN8 ~ fpu_add/fpu_add_frac_dp/IN9 }
+guide_constraints -body { fpu_add } -equivalent { fpu_add/se_add_exp  ~ fpu_add/IN3   fpu_add/IN4 ~ fpu_add/IN5   fpu_add/IN6   fpu_add/IN7 }
+guide_constraints -body { fpu_div } -equivalent { fpu_div/se  ~ fpu_div/IN5 ~ fpu_div/IN6 ~ fpu_div/IN7 ~ fpu_div/IN8 ~ fpu_div/IN9 ~ fpu_div/IN10 ~ fpu_div/IN11 ~ fpu_div/IN12 ~ fpu_div/IN13 ~ fpu_div/IN14 ~ fpu_div/IN15 ~ fpu_div/IN16 }
+guide_constraints -body { fpu_div/fpu_div_frac_dp } -equivalent { fpu_div/fpu_div_frac_dp/se  ~ fpu_div/fpu_div_frac_dp/IN0 ~ fpu_div/fpu_div_frac_dp/IN1 ~ fpu_div/fpu_div_frac_dp/IN2 ~ fpu_div/fpu_div_frac_dp/IN3 ~ fpu_div/fpu_div_frac_dp/IN4 ~ fpu_div/fpu_div_frac_dp/IN5 ~ fpu_div/fpu_div_frac_dp/IN6 }
+guide_constraints -body { fpu_mul } -equivalent { fpu_mul/se_mul  ~ fpu_mul/IN2 }
+
+#-------------------------------------------------------------------
+
