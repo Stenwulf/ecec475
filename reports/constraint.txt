@@ -3,25 +3,25 @@
 Report : constraint
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 15:58:52 2017
+Date   : Wed Mar  8 03:04:15 2017
 ****************************************
 
 
                                                    Weighted
     Group (max_delay/setup)      Cost     Weight     Cost
     -----------------------------------------------------
-    gclk                        79.52      1.00     79.52
+    gclk                        15.56      1.00     15.56
     default                      0.00      1.00      0.00
     -----------------------------------------------------
-    max_delay/setup                                 79.52
+    max_delay/setup                                 15.56
 
                               Total Neg  Critical
     Group (critical_range)      Slack    Endpoints   Cost
     -----------------------------------------------------
-    gclk                     288585.62        2    159.04
+    gclk                     39087.73         2     31.12
     default                      0.00         0      0.00
     -----------------------------------------------------
-    critical_range                                 159.04
+    critical_range                                  31.12
 
                                                    Weighted
     Group (min_delay/hold)       Cost     Weight     Cost
@@ -32,7 +32,7 @@ Date   : Mon Mar  6 15:58:52 2017
     min_delay/hold                                   0.00
     Constraint                                     Slack
     ----------------------------------------------------
-    max_leakage_power                           -1841667072.00
+    max_leakage_power                           -2180922880.00
                                                           (VIOLATED)
 
 
@@ -40,11 +40,11 @@ Date   : Mon Mar  6 15:58:52 2017
     -----------------------------------------------------
     min_capacitance                                  0.00 (MET)
     max_transition                                   0.00 (MET)
-    max_capacitance                                  0.00 (MET)
-    max_delay/setup                                 79.52 (VIOLATED)
+    max_capacitance                                  2.87 (VIOLATED)
+    max_delay/setup                                 15.56 (VIOLATED)
     sequential_clock_pulse_width                     0.00 (MET)
-    critical_range                                 159.04 (VIOLATED)
-    max_leakage_power                            1841667072.00
+    critical_range                                  31.12 (VIOLATED)
+    max_leakage_power                            2180922880.00
                                                           (VIOLATED)
 
 

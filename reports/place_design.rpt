@@ -3,7 +3,7 @@
 Report : design
 Design : fpu
 Version: L-2016.03-SP5-1
-Date   : Mon Mar  6 16:17:29 2017
+Date   : Wed Mar  8 03:49:40 2017
 ****************************************
 
 Design allows ideal nets on clock nets.
@@ -39,9 +39,9 @@ Wire Loading Model:
     Selected automatically from the total cell area.
 
 Name           :   540000
-Location       :   saed90nm_max
-Resistance     :   0.011
-Capacitance    :   0.000157
+Location       :   saed90nm_typ
+Resistance     :   0.01
+Capacitance    :   0.000143
 Area           :   0.01
 Slope          :   331.292
 Fanout   Length   Points Average Cap Std Deviation

@@ -3,28 +3,28 @@
 Report : area
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 15:58:53 2017
+Date   : Wed Mar  8 03:04:15 2017
 ****************************************
 
 Library(s) Used:
 
-    saed90nm_max (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db)
+    saed90nm_typ (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db)
 
 Number of ports:                         3302
-Number of nets:                         54067
-Number of cells:                        49560
-Number of combinational cells:          42329
-Number of sequential cells:              7221
+Number of nets:                         36625
+Number of cells:                        32276
+Number of combinational cells:          25029
+Number of sequential cells:              7237
 Number of macros/black boxes:               0
-Number of buf/inv:                       7869
-Number of references:                      37
+Number of buf/inv:                       2224
+Number of references:                      43
 
-Combinational area:             315705.143109
-Buf/Inv area:                    43520.717927
-Noncombinational area:          171789.004942
+Combinational area:             245602.713405
+Buf/Inv area:                    12476.621101
+Noncombinational area:          171717.120138
 Macro/Black Box area:                0.000000
-Net Interconnect area:           49197.567883
+Net Interconnect area:           60948.832906
 
-Total cell area:                487494.148051
-Total area:                     536691.715934
+Total cell area:                417319.833543
+Total area:                     478268.666449
 1

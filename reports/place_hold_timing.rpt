@@ -10,7 +10,7 @@ Report : timing
         -max_paths 1
 Design : fpu
 Version: L-2016.03-SP5-1
-Date   : Mon Mar  6 16:17:29 2017
+Date   : Wed Mar  8 03:49:40 2017
 ****************************************
 
  * Some/all delay information is back-annotated.
@@ -19,38 +19,39 @@ Operating Conditions: TYPICAL   Library: saed90nm_typ
 	Parasitic source    : LPE
 	Parasitic mode      : RealRC
 	Extraction mode     : MIN_MAX
-	Extraction derating : 125/125/125
+	Extraction derating : 25/25/25
 
-Information: Percent of Arnoldi-based delays = 19.43%
+Information: Percent of Arnoldi-based delays = 25.97%
 
-  Startpoint: cluster_header/I0/sync_cluster_master/q_r_reg
+  Startpoint: fpu_div/fpu_div_frac_dp/i_div_norm_inv/q_reg[26]
               (rising edge-triggered flip-flop clocked by gclk)
-  Endpoint: cluster_header/I0/sync_cluster_slave/so_l_reg
-            (positive level-sensitive latch clocked by gclk')
+  Endpoint: fpu_div/fpu_div_frac_dp/i_div_shl_data/q_reg[26]
+            (rising edge-triggered flip-flop clocked by gclk)
   Path Group: gclk
   Path Type: min
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
-  clock gclk (rise edge)                                  2.00       2.00
-  clock network delay (propagated)                        0.54       2.54
-  cluster_header/I0/sync_cluster_master/q_r_reg/CLK (DFFX1)
-                                                          0.00       2.54 r
-  cluster_header/I0/sync_cluster_master/q_r_reg/QN (DFFX1)
-                                                          0.16       2.70 r
-  cluster_header/I0/sync_cluster_slave/so_l_reg/D (LATCHX1)
-                                                          0.00 &     2.70 r
-  data arrival time                                                  2.70
+  clock gclk (rise edge)                                  0.00       0.00
+  clock network delay (propagated)                        0.48       0.48
+  fpu_div/fpu_div_frac_dp/i_div_norm_inv/q_reg[26]/CLK (DFFX1)
+                                                          0.00       0.48 r
+  fpu_div/fpu_div_frac_dp/i_div_norm_inv/q_reg[26]/Q (DFFX1)
+                                                          0.18       0.66 r
+  fpu_div/fpu_div_frac_dp/U1906/QN (NOR2X0)               0.04 &     0.70 f
+  fpu_div/fpu_div_frac_dp/i_div_shl_data/q_reg[26]/D (DFFX1)
+                                                          0.00 &     0.70 f
+  data arrival time                                                  0.70
 
-  clock gclk' (fall edge)                                 2.00       2.00
-  clock network delay (propagated)                        0.58       2.58
-  cluster_header/I0/sync_cluster_slave/so_l_reg/CLK (LATCHX1)
-                                                          0.00       2.58 f
-  library hold time                                      -0.02       2.55
-  data required time                                                 2.55
+  clock gclk (rise edge)                                  0.00       0.00
+  clock network delay (propagated)                        0.54       0.54
+  fpu_div/fpu_div_frac_dp/i_div_shl_data/q_reg[26]/CLK (DFFX1)
+                                                          0.00       0.54 r
+  library hold time                                       0.01       0.55
+  data required time                                                 0.55
   --------------------------------------------------------------------------
-  data required time                                                 2.55
-  data arrival time                                                 -2.70
+  data required time                                                 0.55
+  data arrival time                                                 -0.70
   --------------------------------------------------------------------------
   slack (MET)                                                        0.15
 

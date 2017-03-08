@@ -1,6 +1,6 @@
 lappend search_path "/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/"
 
-set link_library  "*saed90nm_max.db saed90nm_min.db saed90nm_typ.db"
+set link_library  "* saed90nm_max.db saed90nm_min.db saed90nm_typ.db"
 set target_library "saed90nm_typ.db"
 
 set mw_logic0_net VSS

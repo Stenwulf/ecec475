@@ -1,0 +1,636 @@
+[03/06 14:22:04     0s] Checking out Encounter license ...
+[03/06 14:22:04     0s] 	edsxl		CHECKED OUT:	"Encounter_Digital_Impl_Sys_XL"
+[03/06 14:22:04     0s] Encounter_Digital_Impl_Sys_XL 14.2 license checkout succeeded.
+[03/06 14:22:04     0s] You can run 2 CPU jobs with the base license that is currently checked out.
+[03/06 14:22:04     0s] If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+[03/06 14:22:09     1s] **ERROR: (ENCOAX-142):	Could not open shared library libfeoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+[03/06 14:22:09     1s] 
+[03/06 14:22:09     1s] **ERROR: (ENCOAX-142):	OA features will be disabled in this session.
+[03/06 14:22:09     1s] 
+[03/06 14:22:17     6s] *******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+[03/06 14:22:17     6s] @(#)CDS: Encounter v14.28-s033_1 (64bit) 03/21/2016 13:34 (Linux 2.6.18-194.el5)
+[03/06 14:22:17     6s] @(#)CDS: NanoRoute v14.28-s005 NR160313-1959/14_28-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+[03/06 14:22:17     6s] @(#)CDS: CeltIC v14.28-s006_1 (64bit) 03/08/2016 00:08:23 (Linux 2.6.18-194.el5)
+[03/06 14:22:17     6s] @(#)CDS: AAE 14.28-s002 (64bit) 03/21/2016 (Linux 2.6.18-194.el5)
+[03/06 14:22:17     6s] @(#)CDS: CTE 14.28-s007_1 (64bit) Mar  7 2016 23:11:05 (Linux 2.6.18-194.el5)
+[03/06 14:22:17     6s] @(#)CDS: CPE v14.28-s006
+[03/06 14:22:17     6s] @(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+[03/06 14:22:17     6s] @(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+[03/06 14:22:17     6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[03/06 14:22:17     6s] @(#)CDS: RCDB 11.5
+[03/06 14:22:17     6s] --- Starting "Encounter v14.28-s033_1" on Mon Mar  6 14:22:17 2017 (mem=97.1M) ---
+[03/06 14:22:17     6s] --- Running on xunil-03.coe.drexel.edu (x86_64 w/Linux 3.10.0-514.2.2.el7.x86_64) ---
+[03/06 14:22:17     6s] This version was compiled on Mon Mar 21 13:34:48 PDT 2016.
+[03/06 14:22:17     6s] Set DBUPerIGU to 1000.
+[03/06 14:22:17     6s] Set net toggle Scale Factor to 1.00
+[03/06 14:22:17     6s] Set Shrink Factor to 1.00000
+[03/06 14:22:18     7s] 
+[03/06 14:22:18     7s] **INFO:  MMMC transition support version v31-84 
+[03/06 14:22:18     7s] 
+[03/06 14:22:18     7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/06 14:22:18     7s] <CMD> suppressMessage ENCEXT-2799
+[03/06 14:22:18     7s] <CMD> win
+[03/06 14:25:41    33s] <CMD> set init_gnd_net gnd
+[03/06 14:25:41    33s] <CMD> set init_lef_file ../saed90nm.lef
+[03/06 14:25:41    33s] <CMD> set init_design_settop 0
+[03/06 14:25:41    33s] <CMD> set init_verilog work/fpu.v
+[03/06 14:25:41    33s] <CMD> set init_pwr_net vdd
+[03/06 14:25:41    33s] <CMD> init_design
+[03/06 14:25:41    33s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[03/06 14:25:41    33s] 
+[03/06 14:25:41    33s] **ERROR: (ENCOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[03/06 14:25:41    33s] 
+[03/06 14:25:41    33s] Loading LEF file ../saed90nm.lef ...
+[03/06 14:25:41    33s] **ERROR: (ENCLF-53):	The layer 'M1' referenced in pin 'VDD' in macro 'CGLPPSX2' is not found in the database. A layer must be defined in the LEF technology LAYER section before it can be referenced from a macro. Review the LEF files specified in the init_lef_file variable to see if the layer does not exist or is specified after the one that defines the macro.
+[03/06 14:25:41    33s] Type 'man ENCLF-53' for more detail.
+[03/06 14:25:41    33s] **ERROR: (ENCLF-3):	Error found when processing LEF file '../saed90nm.lef'. The subsequent file content is ignored. Refer to error messages above for details. Fix the errors, and restart 'Encounter' again.
+[03/06 14:25:41    33s] Type 'man ENCLF-3' for more detail.
+[03/06 14:25:41    33s] **ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+[03/06 14:25:41    33s] Please rearrange the LEF file order and make sure the technology LEF file is the
+[03/06 14:25:41    33s] first one, exit and restart Encounter.
+[03/06 14:25:41    33s] **ERROR: (ENCLF-26):	No technology information is defined in the first LEF file.
+[03/06 14:25:41    33s] Please rearrange the LEF file order and make sure the technology LEF file is the
+[03/06 14:25:41    33s] first one, exit and restart Encounter.
+[03/06 14:26:23    39s] <CMD> set init_gnd_net gnd
+[03/06 14:26:23    39s] <CMD> set init_lef_file ../saed90nm_tech.lef
+[03/06 14:26:23    39s] <CMD> set init_design_settop 0
+[03/06 14:26:23    39s] <CMD> set init_verilog work/fpu.v
+[03/06 14:26:23    39s] <CMD> set init_pwr_net vdd
+[03/06 14:26:23    39s] <CMD> init_design
+[03/06 14:26:23    39s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:26:23    39s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[03/06 14:26:23    39s] 
+[03/06 14:26:23    39s] **ERROR: (ENCOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[03/06 14:26:23    39s] 
+[03/06 14:26:23    39s] Loading LEF file ../saed90nm_tech.lef ...
+[03/06 14:26:23    39s] **WARN: (ENCLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'POLYCON', 
+[03/06 14:26:23    39s] **WARN: (ENCLF-105):	The layer 'PO' specified in SAMENET spacing
+[03/06 14:26:23    39s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M1' and 'VIA1' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M2' and 'VIA2' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M3' and 'VIA3' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M4' and 'VIA4' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M5' and 'VIA5' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M6' and 'VIA6' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M7' and 'VIA7' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] **WARN: (ENCLF-102):	Two layers 'M8' and 'VIA8' specified in
+[03/06 14:26:23    39s] SAMENET spacing rule have different type. To specify a SAMENET
+[03/06 14:26:23    39s] spacing rule between a cut layer and routing layer, the first
+[03/06 14:26:23    39s] one must be a cut layer. The rule is ignored.
+[03/06 14:26:23    39s] 
+[03/06 14:26:23    39s] viaInitial starts at Mon Mar  6 14:26:23 2017
+viaInitial ends at Mon Mar  6 14:26:23 2017
+*** Begin netlist parsing (mem=351.2M) ***
+[03/06 14:26:23    39s] Reading netlist ...
+[03/06 14:26:23    39s] Backslashed names will retain backslash and a trailing blank character.
+[03/06 14:26:23    39s] Reading verilog netlist 'work/fpu.v'
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'DFFX1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'LATCHX1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'DFFX2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NOR2X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'INVX0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NOR2X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NAND2X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'AO22X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'INVX1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NBUFFX2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NAND3X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NAND2X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'OR2X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NAND4X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'MUX21X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NOR4X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'NOR4X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'OR4X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'OA21X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-346):	Module 'MUX21X2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[03/06 14:26:23    39s] Type 'man ENCVL-346' for more detail.
+[03/06 14:26:23    39s] **WARN: (EMS-63):	Message <ENCVL-346> has exceeded the default message display limit of 20.
+[03/06 14:26:23    39s] To avoid this warning, increase the display limit per unique message by
+[03/06 14:26:23    39s] using the set_message -limit <number> command.
+[03/06 14:26:23    39s] The message limit can be removed by using the set_message -no_limit command.
+[03/06 14:26:23    39s] Note that setting a very large number using the set_message -limit command
+[03/06 14:26:23    39s] or removing the message limit using the set_message -no_limit command can
+[03/06 14:26:23    39s] significantly increase the log file size.
+[03/06 14:26:23    39s] To suppress a message, use the set_message -suppress command.
+[03/06 14:26:23    39s] Undeclared bus dout in module dp_mux2es ... created as [96:0].
+[03/06 14:26:23    39s] Undeclared bus in0 in module dp_mux2es ... created as [96:0].
+[03/06 14:26:23    39s] Undeclared bus in1 in module dp_mux2es ... created as [96:0].
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38582 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-361):	Number of nets (98) more than bus (dout) pin number (97).  The extra upper nets will be ignored.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38582 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-361):	Number of nets (98) more than bus (in0) pin number (97).  The extra upper nets will be ignored.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38583 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-361):	Number of nets (98) more than bus (in1) pin number (97).  The extra upper nets will be ignored.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38650 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-352):	Bus port (dout) is connected by a signal (\booth/b16_outmx ).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38650 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-352):	Bus port (in0) is connected by a signal (1'b0).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38651 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-352):	Bus port (in1) is connected by a signal (1'b0).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38653 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38654 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38654 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38657 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38658 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38658 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38661 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38662 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38662 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38665 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38666 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38666 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38669 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38670 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+[03/06 14:26:23    39s] Type 'man ENCVL-209' for more detail.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (EMS-63):	Message <ENCVL-209> has exceeded the default message display limit of 20.
+[03/06 14:26:23    39s] To avoid this warning, increase the display limit per unique message by
+[03/06 14:26:23    39s] using the set_message -limit <number> command.
+[03/06 14:26:23    39s] The message limit can be removed by using the set_message -no_limit command.
+[03/06 14:26:23    39s] Note that setting a very large number using the set_message -limit command
+[03/06 14:26:23    39s] or removing the message limit using the set_message -no_limit command can
+[03/06 14:26:23    39s] significantly increase the log file size.
+[03/06 14:26:23    39s] To suppress a message, use the set_message -suppress command.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+[03/06 14:26:23    39s] **WARN: (EMS-63):	Message <ENCVL-360> has exceeded the default message display limit of 20.
+[03/06 14:26:23    39s] To avoid this warning, increase the display limit per unique message by
+[03/06 14:26:23    39s] using the set_message -limit <number> command.
+[03/06 14:26:23    39s] The message limit can be removed by using the set_message -no_limit command.
+[03/06 14:26:23    39s] Note that setting a very large number using the set_message -limit command
+[03/06 14:26:23    39s] or removing the message limit using the set_message -no_limit command can
+[03/06 14:26:23    39s] significantly increase the log file size.
+[03/06 14:26:23    39s] To suppress a message, use the set_message -suppress command.
+[03/06 14:26:24    40s] 
+[03/06 14:26:24    40s] *** Memory Usage v#1 (Current mem = 373.230M, initial mem = 97.129M) ***
+[03/06 14:26:24    40s] *** End netlist parsing (cpu=0:00:00.6, real=0:00:01.0, mem=373.2M) ***
+[03/06 14:26:24    40s] Top level cell is fpu.
+[03/06 14:26:24    40s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.66min, fe_real=4.33min, fe_mem=373.2M) ***
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'DFFX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'NOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'INVX0' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'NOR2X0' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'DFFX2' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'LATCHX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'INVX16' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'synchronizer_asr' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'MUX41X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'NOR3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'dp_mux2es' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'AOI221X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'NAND3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'XNOR3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'DFFARX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'XNOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'OAI222X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'AND3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'OAI22X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (ENCDB-2504):	Cell 'XOR3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[03/06 14:26:24    40s] **WARN: (EMS-63):	Message <ENCDB-2504> has exceeded the default message display limit of 20.
+[03/06 14:26:24    40s] To avoid this warning, increase the display limit per unique message by
+[03/06 14:26:24    40s] using the set_message -limit <number> command.
+[03/06 14:26:24    40s] The message limit can be removed by using the set_message -no_limit command.
+[03/06 14:26:24    40s] Note that setting a very large number using the set_message -limit command
+[03/06 14:26:24    40s] or removing the message limit using the set_message -no_limit command can
+[03/06 14:26:24    40s] significantly increase the log file size.
+[03/06 14:26:24    40s] To suppress a message, use the set_message -suppress command.
+[03/06 14:26:24    40s] Cell 'LATCHX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'LATCHX1' as output for net 'dout[159]' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'NOR2X0' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NOR2X0' as output for net 'n30' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'INVX0' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ZN' of cell 'INVX0' as output for net 'n36' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'NBUFFX2' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Z' of cell 'NBUFFX2' as output for net 'n99' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'NAND4X0' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NAND4X0' as output for net 'n111' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'NAND2X0' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NAND2X0' as output for net 'n122' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'OR2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'OR2X1' as output for net 'n200' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'INVX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ZN' of cell 'INVX1' as output for net 'n1704' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'NAND3X0' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NAND3X0' as output for net 'n1963' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'NOR4X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NOR4X1' as output for net 'n3716' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'NOR2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NOR2X1' as output for net 'n3728' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'DFFX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'DFFX1' as output for net 'n3770' in module 'bw_r_rf16x160'.
+[03/06 14:26:24    40s] Cell 'OAI21X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'OAI21X1' as output for net 'a3stg_lead0[4]' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AO221X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'AO221X1' as output for net 'a3stg_lead0[2]' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OA221X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'OA221X1' as output for net 'a1stg_in2_eq_in1_exp' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'DFFX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'DFFX1' as output for net 'a2stg_frac2_63' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OR3X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'OR3X1' as output for net 'a4stg_rnd_frac_39' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OR4X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'OR4X1' as output for net 'a4stg_frac_9_0_nx' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AND2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'AND2X1' as output for net 'clk' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OAI222X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'OAI222X1' as output for net '\i_a4stg_rnd_frac_pre2/N3 ' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'NOR4X0' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NOR4X0' as output for net '\i_a4stg_rnd_frac_pre3/N66 ' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'MUX21X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'MUX21X1' as output for net '\i_a3stg_frac2/N66 ' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'MUX21X2' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'MUX21X2' as output for net '\i_a3stg_frac2/N5 ' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AO22X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'AO22X1' as output for net 'n2820' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AO21X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'AO21X1' as output for net 'n2911' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AO222X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'AO222X1' as output for net 'n3050' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OA22X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'OA22X1' as output for net 'n82' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OA21X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'OA21X1' as output for net 'n98' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AOI21X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'AOI21X1' as output for net 'n99' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'NOR3X0' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NOR3X0' as output for net 'n103' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'XOR2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'XOR2X1' as output for net 'n125' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'FADDX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'S' of cell 'FADDX1' as output for net 'n138' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AOI22X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'AOI22X1' as output for net 'n146' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AOI222X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'AOI222X1' as output for net 'n339' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OA222X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'OA222X1' as output for net 'n529' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'NAND2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NAND2X1' as output for net 'n654' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OAI221X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'OAI221X1' as output for net 'n844' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'XOR3X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'XOR3X1' as output for net 'n1150' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'OAI22X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'OAI22X1' as output for net 'n1368' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AND3X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'AND3X1' as output for net 'n1843' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AND4X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'AND4X1' as output for net 'n1852' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'FADDX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'CO' of cell 'FADDX1' as output for net 'n4394' in module 'fpu_add_frac_dp'.
+[03/06 14:26:24    40s] Cell 'DFFARX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'DFFARX1' as output for net '\fpu_add_ctl/add_ctl_rst_l ' in module 'fpu_add'.
+[03/06 14:26:24    40s] Cell 'XNOR3X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'XNOR3X1' as output for net 'n11' in module 'fpu_add'.
+[03/06 14:26:24    40s] Cell 'XNOR2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'XNOR2X1' as output for net 'n279' in module 'fpu_add'.
+[03/06 14:26:24    40s] Cell 'NAND3X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NAND3X1' as output for net 'n2344' in module 'fpu_mul_frac_dp'.
+[03/06 14:26:24    40s] Cell 'AOI221X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'AOI221X1' as output for net 'n309' in module 'mul_array1_1'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[72]' of cell 'dp_mux2es' as output for net 'ary2_cout[72]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[71]' of cell 'dp_mux2es' as output for net 'ary2_cout[71]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[70]' of cell 'dp_mux2es' as output for net 'ary2_cout[70]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[69]' of cell 'dp_mux2es' as output for net 'ary2_cout[69]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[68]' of cell 'dp_mux2es' as output for net 'ary2_cout[68]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[67]' of cell 'dp_mux2es' as output for net 'ary2_cout[67]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[66]' of cell 'dp_mux2es' as output for net 'ary2_cout[66]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[65]' of cell 'dp_mux2es' as output for net 'ary2_cout[65]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[64]' of cell 'dp_mux2es' as output for net 'ary2_cout[64]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[63]' of cell 'dp_mux2es' as output for net 'ary2_cout[63]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[62]' of cell 'dp_mux2es' as output for net 'ary2_cout[62]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[61]' of cell 'dp_mux2es' as output for net 'ary2_cout[61]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[60]' of cell 'dp_mux2es' as output for net 'ary2_cout[60]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[59]' of cell 'dp_mux2es' as output for net 'ary2_cout[59]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[58]' of cell 'dp_mux2es' as output for net 'ary2_cout[58]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[57]' of cell 'dp_mux2es' as output for net 'ary2_cout[57]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[56]' of cell 'dp_mux2es' as output for net 'ary2_cout[56]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[55]' of cell 'dp_mux2es' as output for net 'ary2_cout[55]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[54]' of cell 'dp_mux2es' as output for net 'ary2_cout[54]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[53]' of cell 'dp_mux2es' as output for net 'ary2_cout[53]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[52]' of cell 'dp_mux2es' as output for net 'ary2_cout[52]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[51]' of cell 'dp_mux2es' as output for net 'ary2_cout[51]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[50]' of cell 'dp_mux2es' as output for net 'ary2_cout[50]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[49]' of cell 'dp_mux2es' as output for net 'ary2_cout[49]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[48]' of cell 'dp_mux2es' as output for net 'ary2_cout[48]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[47]' of cell 'dp_mux2es' as output for net 'ary2_cout[47]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[46]' of cell 'dp_mux2es' as output for net 'ary2_cout[46]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[45]' of cell 'dp_mux2es' as output for net 'ary2_cout[45]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[44]' of cell 'dp_mux2es' as output for net 'ary2_cout[44]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[43]' of cell 'dp_mux2es' as output for net 'ary2_cout[43]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[42]' of cell 'dp_mux2es' as output for net 'ary2_cout[42]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[41]' of cell 'dp_mux2es' as output for net 'ary2_cout[41]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[40]' of cell 'dp_mux2es' as output for net 'ary2_cout[40]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[39]' of cell 'dp_mux2es' as output for net 'ary2_cout[39]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[38]' of cell 'dp_mux2es' as output for net 'ary2_cout[38]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[37]' of cell 'dp_mux2es' as output for net 'ary2_cout[37]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[36]' of cell 'dp_mux2es' as output for net 'ary2_cout[36]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[35]' of cell 'dp_mux2es' as output for net 'ary2_cout[35]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[34]' of cell 'dp_mux2es' as output for net 'ary2_cout[34]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[33]' of cell 'dp_mux2es' as output for net 'ary2_cout[33]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[32]' of cell 'dp_mux2es' as output for net 'ary2_cout[32]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[31]' of cell 'dp_mux2es' as output for net 'ary2_cout[31]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[30]' of cell 'dp_mux2es' as output for net 'ary2_cout[30]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[29]' of cell 'dp_mux2es' as output for net 'ary2_cout[29]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[28]' of cell 'dp_mux2es' as output for net 'ary2_cout[28]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[27]' of cell 'dp_mux2es' as output for net 'ary2_cout[27]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[26]' of cell 'dp_mux2es' as output for net 'ary2_cout[26]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[25]' of cell 'dp_mux2es' as output for net 'ary2_cout[25]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[24]' of cell 'dp_mux2es' as output for net 'ary2_cout[24]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[23]' of cell 'dp_mux2es' as output for net 'ary2_cout[23]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[22]' of cell 'dp_mux2es' as output for net 'ary2_cout[22]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[21]' of cell 'dp_mux2es' as output for net 'ary2_cout[21]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[20]' of cell 'dp_mux2es' as output for net 'ary2_cout[20]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[19]' of cell 'dp_mux2es' as output for net 'ary2_cout[19]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[18]' of cell 'dp_mux2es' as output for net 'ary2_cout[18]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[17]' of cell 'dp_mux2es' as output for net 'ary2_cout[17]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[16]' of cell 'dp_mux2es' as output for net 'ary2_cout[16]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[15]' of cell 'dp_mux2es' as output for net 'ary2_cout[15]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[14]' of cell 'dp_mux2es' as output for net 'ary2_cout[14]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[13]' of cell 'dp_mux2es' as output for net 'ary2_cout[13]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[12]' of cell 'dp_mux2es' as output for net 'ary2_cout[12]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[11]' of cell 'dp_mux2es' as output for net 'ary2_cout[11]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[10]' of cell 'dp_mux2es' as output for net 'ary2_cout[10]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[9]' of cell 'dp_mux2es' as output for net 'ary2_cout[9]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[8]' of cell 'dp_mux2es' as output for net 'ary2_cout[8]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[7]' of cell 'dp_mux2es' as output for net 'ary2_cout[7]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[6]' of cell 'dp_mux2es' as output for net 'ary2_cout[6]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[5]' of cell 'dp_mux2es' as output for net 'ary2_cout[5]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[4]' of cell 'dp_mux2es' as output for net 'ary2_cout[4]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[3]' of cell 'dp_mux2es' as output for net 'ary2_cout[3]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[2]' of cell 'dp_mux2es' as output for net 'ary2_cout[2]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[1]' of cell 'dp_mux2es' as output for net 'ary2_cout[1]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[0]' of cell 'dp_mux2es' as output for net 'ary2_cout[0]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'dp_mux2es' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'dout[73]' of cell 'dp_mux2es' as output for net 'ary2_sum[73]' in module 'mul64'.
+[03/06 14:26:24    40s] Cell 'NOR3X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'NOR3X1' as output for net 'm2stg_frac1_sng_dnrm' in module 'fpu_mul'.
+[03/06 14:26:24    40s] Cell 'MUX41X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'MUX41X1' as output for net 'n106' in module 'fpu_div'.
+[03/06 14:26:24    40s] Cell 'LATCHX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'LATCHX1' as output for net 'so' in module 'bw_u1_scanl_2x'.
+[03/06 14:26:24    40s] Cell 'synchronizer_asr' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'sync_out' of cell 'synchronizer_asr' as output for net 'cluster_grst_l' in module 'cluster_header'.
+[03/06 14:26:24    40s] Cell 'INVX16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'ZN' of cell 'INVX16' as output for net 'rclk' in module 'cluster_header'.
+[03/06 14:26:24    40s] Cell 'synchronizer_asr' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'so' of cell 'synchronizer_asr' as output for net 'so' in module 'cluster_header'.
+[03/06 14:26:24    40s] Cell 'DFFARX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'DFFARX1' as output for net 'n1381' in module 'fpu'.
+[03/06 14:26:24    40s] Cell 'DFFX2' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'QN' of cell 'DFFX2' as output for net 'n1395' in module 'fpu'.
+[03/06 14:26:24    40s] Cell 'DFFX2' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'DFFX2' as output for net 'inq_sram_din_buf1[146]' in module 'fpu'.
+[03/06 14:26:24    40s] Found empty module (DFFX1).
+[03/06 14:26:24    40s] Found empty module (NOR2X1).
+[03/06 14:26:24    40s] Found empty module (INVX0).
+[03/06 14:26:24    40s] Found empty module (NOR2X0).
+[03/06 14:26:24    40s] Found empty module (DFFX2).
+[03/06 14:26:24    40s] Found empty module (LATCHX1).
+[03/06 14:26:24    40s] Found empty module (INVX16).
+[03/06 14:26:24    40s] Found empty module (synchronizer_asr).
+[03/06 14:26:24    40s] Found empty module (MUX41X1).
+[03/06 14:26:24    40s] Found empty module (NOR3X1).
+[03/06 14:26:24    40s] Found empty module (dp_mux2es).
+[03/06 14:26:24    40s] Found empty module (AOI221X1).
+[03/06 14:26:24    40s] Found empty module (NAND3X1).
+[03/06 14:26:24    40s] Found empty module (XNOR3X1).
+[03/06 14:26:24    40s] Found empty module (DFFARX1).
+[03/06 14:26:24    40s] Found empty module (XNOR2X1).
+[03/06 14:26:24    40s] Found empty module (OAI222X1).
+[03/06 14:26:24    40s] Found empty module (AND3X1).
+[03/06 14:26:24    40s] Found empty module (OAI22X1).
+[03/06 14:26:24    40s] Found empty module (XOR3X1).
+[03/06 14:26:24    40s] Found empty module (OAI221X1).
+[03/06 14:26:24    40s] Found empty module (OA222X1).
+[03/06 14:26:24    40s] Found empty module (AOI222X1).
+[03/06 14:26:24    40s] Found empty module (AOI22X1).
+[03/06 14:26:24    40s] Found empty module (FADDX1).
+[03/06 14:26:24    40s] Found empty module (XOR2X1).
+[03/06 14:26:24    40s] Found empty module (AOI21X1).
+[03/06 14:26:24    40s] Found empty module (OA22X1).
+[03/06 14:26:24    40s] Found empty module (OAI21X1).
+[03/06 14:26:24    40s] Found empty module (NOR3X0).
+[03/06 14:26:24    40s] Found empty module (AND4X1).
+[03/06 14:26:24    40s] Found empty module (AO221X1).
+[03/06 14:26:24    40s] Found empty module (OA221X1).
+[03/06 14:26:24    40s] Found empty module (AO222X1).
+[03/06 14:26:24    40s] Found empty module (OR3X1).
+[03/06 14:26:24    40s] Found empty module (AO21X1).
+[03/06 14:26:24    40s] Found empty module (AND2X1).
+[03/06 14:26:24    40s] Found empty module (MUX21X2).
+[03/06 14:26:24    40s] Found empty module (OA21X1).
+[03/06 14:26:24    40s] Found empty module (OR4X1).
+[03/06 14:26:24    40s] Found empty module (NOR4X1).
+[03/06 14:26:24    40s] Found empty module (NOR4X0).
+[03/06 14:26:24    40s] Found empty module (MUX21X1).
+[03/06 14:26:24    40s] Found empty module (NAND4X0).
+[03/06 14:26:24    40s] Found empty module (OR2X1).
+[03/06 14:26:24    40s] Found empty module (NAND2X0).
+[03/06 14:26:24    40s] Found empty module (NAND3X0).
+[03/06 14:26:24    40s] Found empty module (NBUFFX2).
+[03/06 14:26:24    40s] Found empty module (INVX1).
+[03/06 14:26:24    40s] Found empty module (AO22X1).
+[03/06 14:26:24    40s] Found empty module (NAND2X1).
+[03/06 14:26:24    40s] Starting recursive module instantiation check.
+[03/06 14:26:24    40s] No recursion found.
+[03/06 14:26:24    40s] Term dir updated for 0 vinsts of 51 cells.
+[03/06 14:26:24    40s] Building hierarchical netlist for Cell fpu ...
+[03/06 14:26:24    40s] *** Netlist is unique.
+[03/06 14:26:24    40s] **WARN: (ENCTRN-1103):	Cell (0) CGLPPSX2's height is less than placement-grid.
+[03/06 14:26:24    40s] **WARN: (ENCTRN-1100):	Cannot determine standard cell height.  Assume it 10 IGU.
+[03/06 14:26:24    40s] ** info: there are 91 modules.
+[03/06 14:26:24    40s] ** info: there are 0 stdCell insts.
+[03/06 14:26:24    40s] 
+[03/06 14:26:24    40s] *** Memory Usage v#1 (Current mem = 432.105M, initial mem = 97.129M) ***
+[03/06 14:26:24    40s] **WARN: (ENCFP-3961):	The techSite 'unit' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[03/06 14:26:24    40s] Type 'man ENCFP-3961' for more detail.
+[03/06 14:26:24    40s] Set Default Net Delay as 1000 ps.
+[03/06 14:26:24    40s] Set Default Net Load as 0.5 pF. 
+[03/06 14:26:24    40s] Set Input Pin Transition Delay as 0.1 ps.
+[03/06 14:26:24    40s] **WARN: (ENCSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restore_design -mmmc_file <viewDef.tcl> to add the timing setup information.
+[03/06 14:26:24    40s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:26:28    40s] **ERROR: **ERROR: (ENCSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Fix the errors, and restart again.
+[03/06 14:26:28    40s] 
+[03/06 14:26:34    40s] <CMD> fit
+[03/06 14:26:37    41s] <CMD> zoomOut
+[03/06 14:26:37    41s] <CMD> zoomOut
+[03/06 14:26:39    41s] <CMD> zoomOut
+[03/06 14:27:53    51s] <CMD> set init_verilog work/fpu.ddc
+[03/06 14:27:53    51s] <CMD> init_design
+[03/06 14:27:53    51s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:27:53    51s] **WARN: (ENCSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+[03/06 14:27:53    51s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:27:58    51s] <CMD> fit
+[03/06 14:28:00    52s] <CMD> zoomOut
+[03/06 14:28:01    52s] <CMD> zoomOut
+[03/06 14:28:01    52s] <CMD> zoomOut
+[03/06 14:28:01    52s] <CMD> zoomOut
+[03/06 14:28:29    53s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[03/06 14:28:29    53s] 
+[03/06 14:28:29    53s] **ERROR: (ENCOAX-850):	getG2Libs command cannot be run as OA features are disabled in this session.
+[03/06 14:28:29    53s] **ERROR: (ENCQTF-4044):	Error happens when execute '::Rda_Design::saveDesign:getOALibList saveDesign library' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+[03/06 14:28:36    54s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[03/06 14:28:36    54s] 
+[03/06 14:28:36    54s] **ERROR: (ENCOAX-850):	getOAViewPath command cannot be run as OA features are disabled in this session.
+[03/06 14:28:36    54s] <CMD> saveDesign -cellview {fpu fpu layout}
+[03/06 14:28:36    54s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:28:36    54s] **ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[03/06 14:28:36    54s] 
+[03/06 14:28:36    54s] **ERROR: (ENCIMEX-7299):	saveDesign -cellview cannot be run as OA features are disabled in this session.
+[03/06 14:28:36    54s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:28:48    55s] <CMD> saveDesign fpu.enc
+[03/06 14:28:48    55s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:28:48    55s] Writing Netlist "fpu.enc.dat/fpu.v.gz" ...
+[03/06 14:28:48    55s] Saving AAE Data ...
+[03/06 14:28:48    55s] Saving configuration ...
+[03/06 14:28:48    55s] Saving preference file fpu.enc.dat/enc.pref.tcl ...
+[03/06 14:28:49    55s] Saving floorplan ...
+[03/06 14:28:49    55s] Saving Drc markers ...
+[03/06 14:28:49    55s] ... No Drc file written since there is no markers found.
+[03/06 14:28:49    55s] Saving placement ...
+[03/06 14:28:49    55s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=532.8M) ***
+[03/06 14:28:49    55s] Saving route ...
+[03/06 14:28:49    55s] *** Completed saveRoute (cpu=0:00:00.1 real=0:00:00.0 mem=532.8M) ***
+[03/06 14:28:49    55s] Writing DEF file 'fpu.enc.dat/fpu.def.gz', current time is Mon Mar  6 14:28:49 2017 ...
+[03/06 14:28:49    55s] unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+[03/06 14:28:49    55s] DEF file 'fpu.enc.dat/fpu.def.gz' is written, current time is Mon Mar  6 14:28:49 2017 ...
+[03/06 14:28:49    56s] Copying LEF file...
+[03/06 14:28:49    56s] Copying Non-ILM Constraints file(s) ...
+[03/06 14:28:49    56s] Modifying Mode File...
+[03/06 14:28:49    56s] Modifying Globals File...
+[03/06 14:28:50    56s] Modifying Power Constraints File...
+[03/06 14:28:50    57s] Generated self-contained design: /home/DREXEL/bts37/ecec475
+[03/06 14:28:50    57s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[03/06 14:29:17    59s] <CMD> getIoFlowFlag
+[03/06 14:29:58    62s] <CMD> setIoFlowFlag 0
+[03/06 14:29:58    62s] <CMD> floorPlan -site unit -r 1.0 0.5 5 5 5 5
+[03/06 14:29:58    62s] Adjusting Core to Left to: 5.1200. Core to Bottom to: 5.1200.
+[03/06 14:29:58    62s] <CMD> uiSetTool select
+[03/06 14:29:58    62s] <CMD> getIoFlowFlag
+[03/06 14:29:58    62s] <CMD> fit
+[03/06 14:30:59    66s] <CMD> clearGlobalNets
+[03/06 14:30:59    66s] <CMD> globalNetConnect gnd -type pgpin -pin gnd -inst *
+[03/06 14:30:59    66s] <CMD> globalNetConnect vdd -type pgpin -pin vdd -inst *
+[03/06 14:31:16    67s] <CMD> set sprCreateIeRingNets {}
+[03/06 14:31:16    67s] <CMD> set sprCreateIeRingLayers {}
+[03/06 14:31:16    67s] <CMD> set sprCreateIeRingWidth 1.0
+[03/06 14:31:16    67s] <CMD> set sprCreateIeRingSpacing 1.0
+[03/06 14:31:16    67s] <CMD> set sprCreateIeRingOffset 1.0
+[03/06 14:31:16    67s] <CMD> set sprCreateIeRingThreshold 1.0
+[03/06 14:31:16    67s] <CMD> set sprCreateIeRingJogDistance 1.0
+[03/06 14:31:51    69s] <CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -center 1 -stacked_via_top_layer M9 -type core_rings -jog_distance 1.0 -threshold 1.0 -nets {gnd vdd} -follow core -stacked_via_bottom_layer M1 -layer {bottom M1 top M1 right M2 left M2} -width 8 -spacing 0
+[03/06 14:31:51    69s] 
+[03/06 14:31:51    69s] **ERROR: Error: Invalid spacing specified. 
+[03/06 14:31:51    69s] *** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 541.5M) ***
+[03/06 14:33:06    75s] <CMD> setPlaceMode -fp false
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] <CMD> placeDesign
+[03/06 14:33:06    75s] report_message: '-start_cmd/-end_cmd' can not be nested. Retire previous calls.
+[03/06 14:33:06    75s] **WARN: (ENCSP-9513):	Timing constraint file does not exist
+[03/06 14:33:06    75s] **WARN: (ENCSP-9514):	Non-TimingDriven placement will be performed.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] *** Starting placeDesign default flow ***
+[03/06 14:33:06    75s] *** Start deleteBufferTree ***
+[03/06 14:33:06    75s] Info: Detect buffers to remove automatically.
+[03/06 14:33:06    75s] Analyzing netlist ...
+[03/06 14:33:06    75s] Updating netlist
+[03/06 14:33:06    75s] 
+[03/06 14:33:06    75s] *summary: 0 instances (buffers/inverters) removed
+[03/06 14:33:06    75s] *** Finish deleteBufferTree (0:00:00.0) ***
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] *** ThreeLayerMode is automatically turned on for small designs with less than 4 layers.
+[03/06 14:33:06    75s] Warning: No placeable instances.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] Warning: No placeable instances. Skip congRepair.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] *** Finishing placeDesign default flow ***
+[03/06 14:33:06    75s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 542.5M **
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] **WARN: (ENCSP-180):	This design has less than three layers. Disabling congestion driven placement and IO pin assignment.
+[03/06 14:33:06    75s] 
+[03/06 14:33:06    75s] *** Summary of all messages that are not suppressed in this session:
+[03/06 14:33:06    75s] Severity  ID               Count  Summary                                  
+[03/06 14:33:06    75s] WARNING   ENCSP-9513           1  Timing constraint file does not exist    
+[03/06 14:33:06    75s] WARNING   ENCSP-9514           1  Non-TimingDriven placement will be perfo...
+[03/06 14:33:06    75s] WARNING   ENCSP-180           11  This design has less than three layers. ...
+[03/06 14:33:06    75s] *** Message Summary: 13 warning(s), 0 error(s)
+[03/06 14:33:06    75s] 
+[03/06 16:06:49   697s] 
+[03/06 16:06:49   697s] *** Memory Usage v#1 (Current mem = 542.504M, initial mem = 97.129M) ***
+[03/06 16:06:49   697s] 
+[03/06 16:06:49   697s] *** Summary of all messages that are not suppressed in this session:
+[03/06 16:06:49   697s] Severity  ID               Count  Summary                                  
+[03/06 16:06:49   697s] ERROR     ENCLF-3              1  Error found when processing LEF file '%s...
+[03/06 16:06:49   697s] ERROR     ENCLF-26             2  No technology information is defined in ...
+[03/06 16:06:49   697s] WARNING   ENCLF-155            1  ViaRule only supports routing/cut layer,...
+[03/06 16:06:49   697s] ERROR     ENCLF-53             1  The layer '%s' referenced %s is not foun...
+[03/06 16:06:49   697s] WARNING   ENCLF-102            8  Two layers '%s' and '%s' specified in SA...
+[03/06 16:06:49   697s] WARNING   ENCLF-105            1  The layer '%s' specified in SAMENET spac...
+[03/06 16:06:49   697s] WARNING   ENCTRN-1100          1  Cannot determine standard cell height.  ...
+[03/06 16:06:49   697s] WARNING   ENCTRN-1103          1  Cell (%d) %s's %s is less than %s.       
+[03/06 16:06:49   697s] WARNING   ENCFP-3961           1  The techSite '%s' has no related cells i...
+[03/06 16:06:49   697s] WARNING   ENCSYT-7329          1  Cannot load design with init_design, aft...
+[03/06 16:06:49   697s] WARNING   ENCSYT-7328          1  The design has been initialized in physi...
+[03/06 16:06:49   697s] WARNING   ENCVL-209           54  In Verilog file '%s', check line %d near...
+[03/06 16:06:49   697s] WARNING   ENCVL-346           51  Module '%s' is instantiated in the netli...
+[03/06 16:06:49   697s] WARNING   ENCVL-352            3  Bus port (%s) is connected by a signal (...
+[03/06 16:06:49   697s] WARNING   ENCVL-360           48  Number of nets (%d) less than bus (%s) p...
+[03/06 16:06:49   697s] WARNING   ENCVL-361            3  Number of nets (%d) more than bus (%s) p...
+[03/06 16:06:49   697s] WARNING   ENCDB-2504          51  Cell '%s' is instantiated in the Verilog...
+[03/06 16:06:49   697s] WARNING   ENCSP-9513           1  Timing constraint file does not exist    
+[03/06 16:06:49   697s] WARNING   ENCSP-9514           1  Non-TimingDriven placement will be perfo...
+[03/06 16:06:49   697s] WARNING   ENCSP-180           12  This design has less than three layers. ...
+[03/06 16:06:49   697s] ERROR     ENCOAX-142           2  %s                                       
+[03/06 16:06:49   697s] ERROR     ENCOAX-820           5  The OA features are disabled in the curr...
+[03/06 16:06:49   697s] ERROR     ENCOAX-850           4  %s command cannot be run as OA features ...
+[03/06 16:06:49   697s] ERROR     ENCQTF-4044          1  Error happens when execute '%s' with err...
+[03/06 16:06:49   697s] ERROR     ENCIMEX-7299         1  %s cannot be run as OA features are disa...
+[03/06 16:06:49   697s] *** Message Summary: 239 warning(s), 17 error(s)
+[03/06 16:06:49   697s] 
+[03/06 16:06:49   697s] --- Ending "Encounter" (totcpu=0:11:36, real=1:44:45, mem=542.5M) ---

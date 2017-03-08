@@ -4,34 +4,34 @@ Report : power
         -analysis_effort low
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 15:58:53 2017
+Date   : Wed Mar  8 03:04:15 2017
 ****************************************
 
 
 Library(s) Used:
 
-    saed90nm_max (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db)
+    saed90nm_typ (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db)
 
 
-Operating Conditions: WORST   Library: saed90nm_max
+Operating Conditions: TYPICAL   Library: saed90nm_typ
 Wire Load Model Mode: enclosed
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-fpu                    540000            saed90nm_max
-bw_r_rf16x160          140000            saed90nm_max
-fpu_add                140000            saed90nm_max
-fpu_mul                280000            saed90nm_max
-fpu_div                70000             saed90nm_max
-fpu_add_frac_dp        140000            saed90nm_max
-fpu_mul_frac_dp        70000             saed90nm_max
-mul64                  140000            saed90nm_max
-fpu_div_frac_dp        70000             saed90nm_max
-mul_array1_1           35000             saed90nm_max
-mul_array1_0           70000             saed90nm_max
+fpu                    540000            saed90nm_typ
+bw_r_rf16x160          140000            saed90nm_typ
+fpu_add                140000            saed90nm_typ
+fpu_mul                280000            saed90nm_typ
+fpu_div                70000             saed90nm_typ
+fpu_add_frac_dp        140000            saed90nm_typ
+fpu_mul_frac_dp        35000             saed90nm_typ
+mul64                  140000            saed90nm_typ
+fpu_div_frac_dp        35000             saed90nm_typ
+mul_array1_1           35000             saed90nm_typ
+mul_array1_0           35000             saed90nm_typ
 
 
-Global Operating Voltage = 0.7  
+Global Operating Voltage = 1.2  
 Power-specific unit information :
     Voltage Units = 1V
     Capacitance Units = 1.000000ff
@@ -40,12 +40,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  = 619.0602 uW   (45%)
-  Net Switching Power  = 768.4432 uW   (55%)
+  Cell Internal Power  =   1.8698 mW   (44%)
+  Net Switching Power  =   2.4226 mW   (56%)
                          ---------
-Total Dynamic Power    =   1.3875 mW  (100%)
+Total Dynamic Power    =   4.2924 mW  (100%)
 
-Cell Leakage Power     =   1.6263 mW
+Cell Leakage Power     =   1.9827 mW
 
 
                  Internal         Switching           Leakage            Total
@@ -54,10 +54,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network      9.2952          557.2825        3.7333e+05          566.9510  (  18.81%)
-register         199.0978           25.2213        3.7393e+08          598.2478  (  19.85%)
-sequential     -1.6010e-02        6.3335e-04        1.9576e+08          195.7472 (   6.50%)
-combinational    410.6822          185.9402        1.0562e+09        1.6528e+03  (  54.84%)
+clock_network     30.2304        1.7818e+03        5.1685e+05        1.8125e+03  (  28.88%)
+register         864.9799          117.8827        6.1223e+08        1.5951e+03  (  25.42%)
+sequential     -8.8649e-02        3.1095e-03        2.6404e+08          263.9516 (   4.21%)
+combinational    974.6811          522.8585        1.1059e+09        2.6035e+03  (  41.49%)
 --------------------------------------------------------------------------------------------------
-Total            619.0592 uW       768.4447 uW     1.6263e+09 pW     3.0138e+03 uW
+Total          1.8698e+03 uW     2.4225e+03 uW     1.9827e+09 pW     6.2751e+03 uW
 1

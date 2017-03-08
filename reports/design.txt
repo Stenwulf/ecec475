@@ -5,18 +5,18 @@ Warning: Design 'fpu' contains 2 high-fanout nets. A fanout number of 1000 will 
 Report : design
 Design : fpu
 Version: M-2016.12-SP1
-Date   : Mon Mar  6 15:58:52 2017
+Date   : Wed Mar  8 03:04:15 2017
 ****************************************
 
 Design allows ideal nets on clock nets.
 
 Library(s) Used:
 
-    saed90nm_max (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db)
+    saed90nm_typ (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db)
 
 Local Link Library:
 
-    {saed90nm_max.db}
+    {saed90nm_typ.db}
 
 Flip-Flop Types:
 
@@ -29,21 +29,21 @@ Latch Types:
 Operating Conditions:
 
 
-    Operating Condition Name : WORST
-    Library : saed90nm_max
+    Operating Condition Name : TYPICAL
+    Library : saed90nm_typ
     Process :   1.00
-    Temperature : 125.00
-    Voltage :   0.70
-    Interconnect Model : worst_case_tree
+    Temperature :  25.00
+    Voltage :   1.20
+    Interconnect Model : balanced_tree
 
 Wire Loading Model:
 
     Selected automatically from the total cell area.
 
 Name           :   540000
-Location       :   saed90nm_max
-Resistance     :   0.011
-Capacitance    :   0.000157
+Location       :   saed90nm_typ
+Resistance     :   0.01
+Capacitance    :   0.000143
 Area           :   0.01
 Slope          :   331.292
 Fanout   Length   Points Average Cap Std Deviation

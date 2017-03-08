@@ -1,0 +1,19 @@
+set_user_match   -inverted   $svf_ref/fpu/fpu_add/fpu_add_frac_dp/a1stg_faddsubop_inv_BAR   $svf_impl/fpu/fpu_add/fpu_add_frac_dp/a1stg_faddsubop_inv_BAR
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/mul_step_BAR   $svf_impl/fpu/fpu_mul/i_m4stg_frac/mul_step_BAR
+guide_constraints -body { fpu_mul/fpu_mul_frac_dp } -equivalent { fpu_mul/fpu_mul_frac_dp/m6stg_step_BAR  ~ fpu_mul/fpu_mul_frac_dp/IN0 ~ fpu_mul/fpu_mul_frac_dp/IN1 }
+guide_constraints -body { fpu_add/fpu_add_frac_dp } -equivalent { fpu_add/fpu_add_frac_dp/a6stg_step    fpu_add/fpu_add_frac_dp/IN0 }
+guide_constraints -body { fpu_mul/fpu_mul_frac_dp } -equivalent { fpu_mul/fpu_mul_frac_dp/m1stg_dblop  ~ fpu_mul/fpu_mul_frac_dp/IN2 ~ fpu_mul/fpu_mul_frac_dp/IN3 }
+guide_constraints -body { bw_r_rf16x160 } -equivalent { bw_r_rf16x160/sehold    bw_r_rf16x160/IN0 }
+guide_constraints -body { bw_r_rf16x160 } -equivalent { bw_r_rf16x160/reset_l    bw_r_rf16x160/IN1   bw_r_rf16x160/IN2 }
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/se_mul64   $svf_impl/fpu/fpu_mul/se_mul64
+set_user_match   -inverted   $svf_ref/fpu/fpu_mul/i_m4stg_frac/se   $svf_impl/fpu/fpu_mul/i_m4stg_frac/se
+guide_constraints -body { fpu_div } -equivalent { fpu_div/se    fpu_div/IN2   fpu_div/IN3   fpu_div/IN4 ~ fpu_div/IN5 ~ fpu_div/IN6   fpu_div/IN7 ~ fpu_div/IN8   fpu_div/IN9 ~ fpu_div/IN10 }
+guide_constraints -body { fpu_mul } -equivalent { fpu_mul/se_mul  ~ fpu_mul/IN0   fpu_mul/IN1 ~ fpu_mul/IN2   fpu_mul/IN3   fpu_mul/IN4 ~ fpu_mul/IN5 ~ fpu_mul/IN6   fpu_mul/IN7   fpu_mul/IN8   fpu_mul/IN9 }
+guide_constraints -body { fpu_mul/i_m4stg_frac } -equivalent { fpu_mul/i_m4stg_frac/se  ~ fpu_mul/i_m4stg_frac/IN0 ~ fpu_mul/i_m4stg_frac/IN1 ~ fpu_mul/i_m4stg_frac/IN2 ~ fpu_mul/i_m4stg_frac/IN3 ~ fpu_mul/i_m4stg_frac/IN4 ~ fpu_mul/i_m4stg_frac/IN5 }
+guide_constraints -body { fpu_div/fpu_div_frac_dp } -equivalent { fpu_div/fpu_div_frac_dp/se    fpu_div/fpu_div_frac_dp/IN0   fpu_div/fpu_div_frac_dp/IN1 ~ fpu_div/fpu_div_frac_dp/IN2   fpu_div/fpu_div_frac_dp/IN3 ~ fpu_div/fpu_div_frac_dp/IN4   fpu_div/fpu_div_frac_dp/IN5 }
+guide_constraints -body { fpu_add/fpu_add_frac_dp } -equivalent { fpu_add/fpu_add_frac_dp/se    fpu_add/fpu_add_frac_dp/IN1 ~ fpu_add/fpu_add_frac_dp/IN2   fpu_add/fpu_add_frac_dp/IN3 }
+guide_constraints -body { fpu_mul/fpu_mul_frac_dp } -equivalent { fpu_mul/fpu_mul_frac_dp/se  ~ fpu_mul/fpu_mul_frac_dp/IN4   fpu_mul/fpu_mul_frac_dp/IN5 ~ fpu_mul/fpu_mul_frac_dp/IN6   fpu_mul/fpu_mul_frac_dp/IN7   fpu_mul/fpu_mul_frac_dp/IN8 }
+guide_constraints -body { fpu_add } -equivalent { fpu_add/se_add_exp  ~ fpu_add/IN0 ~ fpu_add/IN1   fpu_add/IN2   fpu_add/IN3 }
+
+#-------------------------------------------------------------------
+

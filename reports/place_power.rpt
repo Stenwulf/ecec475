@@ -7,7 +7,7 @@ Report : power
         -analysis_effort low
 Design : fpu
 Version: L-2016.03-SP5-1
-Date   : Mon Mar  6 16:17:33 2017
+Date   : Wed Mar  8 03:49:44 2017
 ****************************************
 
 
@@ -21,17 +21,17 @@ Wire Load Model Mode: enclosed
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-fpu                    540000            saed90nm_max
-fpu_div                70000             saed90nm_max
-fpu_mul                280000            saed90nm_max
-fpu_add                140000            saed90nm_max
-bw_r_rf16x160          140000            saed90nm_max
-fpu_div_frac_dp        70000             saed90nm_max
-mul64                  140000            saed90nm_max
-fpu_mul_frac_dp        70000             saed90nm_max
-fpu_add_frac_dp        140000            saed90nm_max
-mul_array1_0           70000             saed90nm_max
-mul_array1_1           35000             saed90nm_max
+fpu                    540000            saed90nm_typ
+fpu_div                70000             saed90nm_typ
+fpu_mul                280000            saed90nm_typ
+fpu_add                140000            saed90nm_typ
+bw_r_rf16x160          140000            saed90nm_typ
+fpu_div_frac_dp        35000             saed90nm_typ
+mul64                  140000            saed90nm_typ
+fpu_mul_frac_dp        35000             saed90nm_typ
+fpu_add_frac_dp        140000            saed90nm_typ
+mul_array1_0           35000             saed90nm_typ
+mul_array1_1           35000             saed90nm_typ
 
 
 Global Operating Voltage = 1.2  
@@ -43,12 +43,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   3.7202 mW   (38%)
-  Net Switching Power  =   6.1302 mW   (62%)
+  Cell Internal Power  =   4.2826 mW   (41%)
+  Net Switching Power  =   6.0543 mW   (59%)
                          ---------
-Total Dynamic Power    =   9.8504 mW  (100%)
+Total Dynamic Power    =  10.3370 mW  (100%)
 
-Cell Leakage Power     =   2.0867 mW
+Cell Leakage Power     =   1.9875 mW
 
 
                  Internal         Switching           Leakage            Total
@@ -57,10 +57,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network  1.8789e+03        4.6921e+03        8.3255e+06        6.5793e+03  (  55.12%)
-register         745.6655          285.0728        6.1356e+08        1.6443e+03  (  13.77%)
-sequential     -2.9818e-02        3.1190e-02        2.6405e+08          264.0510 (   2.21%)
-combinational  1.0956e+03        1.1530e+03        1.2008e+09        3.4495e+03  (  28.90%)
+clock_network  2.0284e+03        4.7115e+03        9.1157e+06        6.7489e+03  (  54.76%)
+register       1.2144e+03          327.8028        6.1334e+08        2.1555e+03  (  17.49%)
+sequential     -5.1360e-02            0.0000        2.6403e+08          263.9747 (   2.14%)
+combinational  1.0400e+03        1.0150e+03        1.1011e+09        3.1561e+03  (  25.61%)
 --------------------------------------------------------------------------------------------------
-Total          3.7201e+03 uW     6.1302e+03 uW     2.0867e+09 pW     1.1937e+04 uW
+Total          4.2826e+03 uW     6.0543e+03 uW     1.9875e+09 pW     1.2325e+04 uW
 1

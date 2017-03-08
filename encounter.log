@@ -1,0 +1,461 @@
+Checking out Encounter license ...
+	edsxl		CHECKED OUT:	"Encounter_Digital_Impl_Sys_XL"
+Encounter_Digital_Impl_Sys_XL 14.2 license checkout succeeded.
+You can run 2 CPU jobs with the base license that is currently checked out.
+If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+**ERROR: (ENCOAX-142):	Could not open shared library libfeoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+
+**ERROR: (ENCOAX-142):	OA features will be disabled in this session.
+
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v14.28-s033_1 (64bit) 03/21/2016 13:34 (Linux 2.6.18-194.el5)
+@(#)CDS: NanoRoute v14.28-s005 NR160313-1959/14_28-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+@(#)CDS: CeltIC v14.28-s006_1 (64bit) 03/08/2016 00:08:23 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 14.28-s002 (64bit) 03/21/2016 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 14.28-s007_1 (64bit) Mar  7 2016 23:11:05 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v14.28-s006
+@(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+@(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+@(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+@(#)CDS: RCDB 11.5
+--- Starting "Encounter v14.28-s033_1" on Mon Mar  6 08:50:09 2017 (mem=98.1M) ---
+--- Running on xunil-03.coe.drexel.edu (x86_64 w/Linux 3.10.0-514.2.2.el7.x86_64) ---
+This version was compiled on Mon Mar 21 13:34:48 PDT 2016.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> set init_gnd_net GND
+<CMD> set init_lef_file ../saed90nm_tech.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog work/fpu.v
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+**ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (ENCOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+
+Loading LEF file ../saed90nm_tech.lef ...
+**WARN: (ENCLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'POLYCON', 
+**WARN: (ENCLF-105):	The layer 'PO' specified in SAMENET spacing
+rule is neither a routing layer nor a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M1' and 'VIA1' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M2' and 'VIA2' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M3' and 'VIA3' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M4' and 'VIA4' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M5' and 'VIA5' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M6' and 'VIA6' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M7' and 'VIA7' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+**WARN: (ENCLF-102):	Two layers 'M8' and 'VIA8' specified in
+SAMENET spacing rule have different type. To specify a SAMENET
+spacing rule between a cut layer and routing layer, the first
+one must be a cut layer. The rule is ignored.
+Set DBUPerIGU to M2 pitch 320.
+
+viaInitial starts at Mon Mar  6 08:52:08 2017
+viaInitial ends at Mon Mar  6 08:52:08 2017
+*** Begin netlist parsing (mem=357.2M) ***
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'work/fpu.v'
+Module DFFX1 is not defined and will be treated as an empty module.
+Module LATCHX1 is not defined and will be treated as an empty module.
+Module DFFX2 is not defined and will be treated as an empty module.
+Module NOR2X0 is not defined and will be treated as an empty module.
+Module INVX0 is not defined and will be treated as an empty module.
+Module NOR2X1 is not defined and will be treated as an empty module.
+Module NAND2X1 is not defined and will be treated as an empty module.
+Module AO22X1 is not defined and will be treated as an empty module.
+Module INVX1 is not defined and will be treated as an empty module.
+Module NBUFFX2 is not defined and will be treated as an empty module.
+Module NAND3X0 is not defined and will be treated as an empty module.
+Module NAND2X0 is not defined and will be treated as an empty module.
+Module OR2X1 is not defined and will be treated as an empty module.
+Module NAND4X0 is not defined and will be treated as an empty module.
+Module MUX21X1 is not defined and will be treated as an empty module.
+Module NOR4X0 is not defined and will be treated as an empty module.
+Module NOR4X1 is not defined and will be treated as an empty module.
+Module OR4X1 is not defined and will be treated as an empty module.
+Module OA21X1 is not defined and will be treated as an empty module.
+Module MUX21X2 is not defined and will be treated as an empty module.
+Module AND2X1 is not defined and will be treated as an empty module.
+Module AO21X1 is not defined and will be treated as an empty module.
+Module OR3X1 is not defined and will be treated as an empty module.
+Module AO222X1 is not defined and will be treated as an empty module.
+Module OA221X1 is not defined and will be treated as an empty module.
+Module AO221X1 is not defined and will be treated as an empty module.
+Module AND4X1 is not defined and will be treated as an empty module.
+Module NOR3X0 is not defined and will be treated as an empty module.
+Module OAI21X1 is not defined and will be treated as an empty module.
+Module OA22X1 is not defined and will be treated as an empty module.
+Module AOI21X1 is not defined and will be treated as an empty module.
+Module XOR2X1 is not defined and will be treated as an empty module.
+Module FADDX1 is not defined and will be treated as an empty module.
+Module AOI22X1 is not defined and will be treated as an empty module.
+Module AOI222X1 is not defined and will be treated as an empty module.
+Module OA222X1 is not defined and will be treated as an empty module.
+Module OAI221X1 is not defined and will be treated as an empty module.
+Module XOR3X1 is not defined and will be treated as an empty module.
+Module OAI22X1 is not defined and will be treated as an empty module.
+Module AND3X1 is not defined and will be treated as an empty module.
+Module OAI222X1 is not defined and will be treated as an empty module.
+Module XNOR2X1 is not defined and will be treated as an empty module.
+Module DFFARX1 is not defined and will be treated as an empty module.
+Module XNOR3X1 is not defined and will be treated as an empty module.
+Module NAND3X1 is not defined and will be treated as an empty module.
+Module AOI221X1 is not defined and will be treated as an empty module.
+Module dp_mux2es is not defined and will be treated as an empty module.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38582 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-361):	Number of nets (98) more than bus (dout) pin number (97).  The extra upper nets will be ignored.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38582 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-361):	Number of nets (98) more than bus (in0) pin number (97).  The extra upper nets will be ignored.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38583 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-361):	Number of nets (98) more than bus (in1) pin number (97).  The extra upper nets will be ignored.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38650 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-352):	Bus port (dout) is connected by a signal (\booth/b16_outmx ).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38650 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-352):	Bus port (in0) is connected by a signal (1'b0).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38651 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-352):	Bus port (in1) is connected by a signal (1'b0).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38653 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38654 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38654 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38657 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38658 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38658 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38661 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38662 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38662 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38665 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38666 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38666 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38669 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 38670 near the text ) for the issue: 'width-mismatched port connection'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (EMS-63):	Message <ENCVL-209> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in1) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (dout) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (ENCVL-360):	Number of nets (3) less than bus (in0) pin number (97).  The extra upper bus bits will be floating.
+**WARN: (EMS-63):	Message <ENCVL-360> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+Module NOR3X1 is not defined and will be treated as an empty module.
+Module MUX41X1 is not defined and will be treated as an empty module.
+Module synchronizer_asr is not defined and will be treated as an empty module.
+Module INVX16 is not defined and will be treated as an empty module.
+
+*** Memory Usage v#1 (Current mem = 378.207M, initial mem = 98.129M) ***
+*** End netlist parsing (cpu=0:00:00.6, real=0:00:01.0, mem=378.2M) ***
+Top level cell is fpu.
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.22min, fe_real=2.25min, fe_mem=378.2M) ***
+**WARN: (ENCDB-2504):	Cell 'LATCHX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'DFFX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NAND2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'INVX0' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NOR2X0' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'DFFX2' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'INVX16' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'synchronizer_asr' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'MUX41X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NOR3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'dp_mux2es' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'AOI221X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'NAND3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'XNOR3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'DFFARX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'XNOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'OAI222X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'AND3X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (ENCDB-2504):	Cell 'OAI22X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (EMS-63):	Message <ENCDB-2504> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+Found empty module (LATCHX1).
+Found empty module (DFFX1).
+Found empty module (NAND2X1).
+Found empty module (NOR2X1).
+Found empty module (INVX0).
+Found empty module (NOR2X0).
+Found empty module (DFFX2).
+Found empty module (INVX16).
+Found empty module (synchronizer_asr).
+Found empty module (MUX41X1).
+Found empty module (NOR3X1).
+Found empty module (dp_mux2es).
+Found empty module (AOI221X1).
+Found empty module (NAND3X1).
+Found empty module (XNOR3X1).
+Found empty module (DFFARX1).
+Found empty module (XNOR2X1).
+Found empty module (OAI222X1).
+Found empty module (AND3X1).
+Found empty module (OAI22X1).
+Found empty module (XOR3X1).
+Found empty module (OAI221X1).
+Found empty module (OA222X1).
+Found empty module (AOI222X1).
+Found empty module (AOI22X1).
+Found empty module (FADDX1).
+Found empty module (XOR2X1).
+Found empty module (AOI21X1).
+Found empty module (OA22X1).
+Found empty module (OAI21X1).
+Found empty module (NOR3X0).
+Found empty module (AND4X1).
+Found empty module (AO221X1).
+Found empty module (OA221X1).
+Found empty module (AO222X1).
+Found empty module (OR3X1).
+Found empty module (AO21X1).
+Found empty module (AND2X1).
+Found empty module (MUX21X2).
+Found empty module (OA21X1).
+Found empty module (OR4X1).
+Found empty module (NOR4X1).
+Found empty module (NOR4X0).
+Found empty module (MUX21X1).
+Found empty module (NAND4X0).
+Found empty module (OR2X1).
+Found empty module (NAND2X0).
+Found empty module (NAND3X0).
+Found empty module (NBUFFX2).
+Found empty module (INVX1).
+Found empty module (AO22X1).
+Starting recursive module instantiation check.
+No recursion found.
+Term dir updated for 0 vinsts of 51 cells.
+Building hierarchical netlist for Cell fpu ...
+*** Netlist is unique.
+**WARN: (ENCTRN-1100):	Cannot determine standard cell height.  Assume it 10 IGU.
+**WARN: (ENCTRN-1101):	Could not determine power-rail locations in cells. Use default value GNDOnBtm.
+** info: there are 90 modules.
+** info: there are 0 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 438.082M, initial mem = 98.129M) ***
+**ERROR: (ENCFP-1594):	No site specified. Check the LEF file to make sure a site is specified for core cell.
+Type 'man ENCFP-1594' for more detail.
+**ERROR: (ENCSYC-1595):	No row created.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Input Pin Transition Delay as 0.1 ps.
+
+**WARN: (ENCSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restore_design -mmmc_file <viewDef.tcl> to add the timing setup information.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   ENCLF-155            1  ViaRule only supports routing/cut layer,...
+WARNING   ENCLF-102            8  Two layers '%s' and '%s' specified in SA...
+WARNING   ENCLF-105            1  The layer '%s' specified in SAMENET spac...
+WARNING   ENCTRN-1101          1  Could not determine power-rail locations...
+WARNING   ENCTRN-1100          1  Cannot determine standard cell height.  ...
+ERROR     ENCFP-1594           1  No site specified. Check the LEF file to...
+WARNING   ENCSYT-7328          1  The design has been initialized in physi...
+ERROR     ENCSYC-1595          1  No row created.                          
+WARNING   ENCVL-209           54  In Verilog file '%s', check line %d near...
+WARNING   ENCVL-352            3  Bus port (%s) is connected by a signal (...
+WARNING   ENCVL-360           48  Number of nets (%d) less than bus (%s) p...
+WARNING   ENCVL-361            3  Number of nets (%d) more than bus (%s) p...
+WARNING   ENCDB-2504          51  Cell '%s' is instantiated in the Verilog...
+ERROR     ENCOAX-820           1  The OA features are disabled in the curr...
+ERROR     ENCOAX-850           1  %s command cannot be run as OA features ...
+*** Message Summary: 172 warning(s), 4 error(s)
+
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -fplanOrigin center -r 1.0 0.5 5 5 5 5
+Adjusting Core to Left to: 5.1200. Core to Bottom to: 5.1200.
+**ERROR: (ENCFP-1594):	No site specified. Check the LEF file to make sure a site is specified for core cell.
+Type 'man ENCFP-1594' for more detail.
+**ERROR: (ENCSYC-1595):	No row created.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> clearGlobalNets
+<CMD> globalNetConnect GND -type pgpin -pin GND -inst *
+<CMD> globalNetConnect VDD -type pgpin -pin VDD -inst *
+<CMD> set sprCreateIeRingNets {}
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingWidth 1.0
+<CMD> set sprCreateIeRingSpacing 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -center 1 -stacked_via_top_layer M9 -type core_rings -jog_distance 0.16 -threshold 0.16 -nets {GND VDD} -follow core -stacked_via_bottom_layer M1 -layer {bottom M1 top M1 right M2 left M6} -width 1.0 -spacing 0.5 -offset 0.5
+
+**WARN: (ENCPP-4051):	Fail to add rings. Gaps among IO cells may exist. Execute command addIoFiller to fill gaps among cells before addRing.
+*** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 545.9M) ***
+<CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -center 1 -stacked_via_top_layer M9 -type core_rings -jog_distance 0.16 -threshold 0.16 -nets {GND VDD} -follow core -stacked_via_bottom_layer M1 -layer {bottom M1 top M1 right M2 left M6} -width 1.0 -spacing {bottom 0.14 top 0.14 right 0.16 left 0.16} -offset 0.5
+
+**WARN: (ENCPP-4051):	Fail to add rings. Gaps among IO cells may exist. Execute command addIoFiller to fill gaps among cells before addRing.
+*** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 545.9M) ***
+<CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -center 1 -stacked_via_top_layer M9 -type core_rings -jog_distance 0.16 -threshold 0.16 -nets {GND VDD} -follow core -stacked_via_bottom_layer M1 -layer {bottom M1 top M1 right M2 left M6} -width 1.0 -spacing {bottom 0.14 top 0.14 right 0.16 left 0.16} -offset 0.5
+
+**WARN: (ENCPP-4051):	Fail to add rings. Gaps among IO cells may exist. Execute command addIoFiller to fill gaps among cells before addRing.
+*** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 545.9M) ***
+<CMD> addRing -skip_via_on_wire_shape Noshape -skip_via_on_pin Standardcell -center 1 -stacked_via_top_layer M9 -type core_rings -jog_distance 0.16 -threshold 0.16 -nets {GND VDD} -follow core -stacked_via_bottom_layer M1 -layer {bottom M1 top M1 right M2 left M6} -width 1.0 -spacing {bottom 0.14 top 0.14 right 0.16 left 0.16} -offset 0.5
+
+**WARN: (ENCPP-4051):	Fail to add rings. Gaps among IO cells may exist. Execute command addIoFiller to fill gaps among cells before addRing.
+*** Ending Ring Generation (totcpu: 0:00:00.0,real: 0:00:00.0, mem: 545.9M) ***
+<CMD> fit
+<CMD> fit
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign
+**WARN: (ENCSP-9513):	Timing constraint file does not exist
+**WARN: (ENCSP-9514):	Non-TimingDriven placement will be performed.
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**ERROR: (ENCSP-279):	Floorplan is not properly initialized. No default techSite found.
+**ERROR: (ENCSP-280):	Check for errors during floorplanning to determine the cause.
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**ERROR: (ENCSP-279):	Floorplan is not properly initialized. No default techSite found.
+**ERROR: (ENCSP-280):	Check for errors during floorplanning to determine the cause.
+<CMD> zoomIn
+<CMD> fit
+<CMD> zoomIn
+<CMD> fit
+**ERROR: (ENCSYT-6000):	No Object Selected.
+<CMD> setLayerPreference pinObj -isVisible 1
+<CMD> setLayerPreference cellBlkgObj -isVisible 1
+<CMD> setLayerPreference layoutObj -isVisible 1
+<CMD> setLayerPreference pinObj -isSelectable 1
+<CMD> setLayerPreference cellBlkgObj -isSelectable 1
+<CMD> setLayerPreference layoutObj -isSelectable 1
+<CMD> setLayerPreference mGrid -isVisible 1
+<CMD> setLayerPreference pGrid -isVisible 1
+<CMD> setLayerPreference userGrid -isVisible 1
+<CMD> setLayerPreference fGrid -isVisible 1
+<CMD> setLayerPreference gcell -isVisible 1
+<CMD> setLayerPreference mGrid -isSelectable 1
+<CMD> setLayerPreference pGrid -isSelectable 1
+<CMD> setLayerPreference userGrid -isSelectable 1
+<CMD> setLayerPreference fGrid -isSelectable 1
+<CMD> setLayerPreference gcell -isSelectable 1
+<CMD> setLayerPreference mGrid -isVisible 0
+<CMD> setLayerPreference pGrid -isVisible 0
+<CMD> setLayerPreference userGrid -isVisible 0
+<CMD> setLayerPreference fGrid -isVisible 0
+<CMD> setLayerPreference gcell -isVisible 0
+**ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (ENCOAX-850):	getG2Libs command cannot be run as OA features are disabled in this session.
+**ERROR: (ENCQTF-4044):	Error happens when execute '::Rda_Design::saveDesign:getOALibList saveDesign library' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+
+*** Memory Usage v#1 (Current mem = 547.871M, initial mem = 98.129M) ***
+*** Message Summary: 178 warning(s), 16 error(s)
+
