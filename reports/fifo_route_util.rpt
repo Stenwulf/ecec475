@@ -4,25 +4,25 @@ Warning: Metal 9 tracks may not cover core area at the top side. (APL-027)
   Report : Chip Summary
   Design : fpu
   Version: L-2016.03-SP5-1
-  Date   : Mon Mar  6 15:25:05 2017
+  Date   : Mon Mar  6 16:17:21 2017
 ****************************************
-Std cell utilization: 50.27%  (441469/(878280-0))
+Std cell utilization: 48.27%  (509322/(1055070-0))
 (Non-fixed + Fixed)
-Std cell utilization: 50.27%  (441469/(878280-0))
+Std cell utilization: 48.09%  (505680/(1055070-3647))
 (Non-fixed only)
-Chip area:            878280   sites, bbox (5.00 5.00 905.80 903.56) um
-Std cell area:        441469   sites, (non-fixed:441469 fixed:0)
-                      29624    cells, (non-fixed:29624  fixed:0)
+Chip area:            1055070  sites, bbox (5.00 5.00 992.20 989.96) um
+Std cell area:        509322   sites, (non-fixed:505680 fixed:3642)
+                      45455    cells, (non-fixed:45217  fixed:238)
 Macro cell area:      0        sites
                       0        cells
 Placement blockages:  0        sites, (excluding fixed std cells)
-                      0        sites, (include fixed std cells & chimney area)
+                      3647     sites, (include fixed std cells & chimney area)
                       0        sites, (complete p/g net blockages)
 Routing blockages:    0        sites, (partial p/g net blockages)
                       0        sites, (routing blockages and signal pre-route)
-Lib cell count:       55 
-Avg. std cell width:  4.40 um 
-Site array:           unit     (width: 0.32 um, height: 2.88 um, rows: 312)
+Lib cell count:       52 
+Avg. std cell width:  4.76 um 
+Site array:           unit     (width: 0.32 um, height: 2.88 um, rows: 342)
 Physical DB scale:    1000 db_unit = 1 um 
 
  
@@ -30,7 +30,7 @@ Physical DB scale:    1000 db_unit = 1 um
   Report : pnet options
   Design : fpu
   Version: L-2016.03-SP5-1
-  Date   : Mon Mar  6 15:25:05 2017
+  Date   : Mon Mar  6 16:17:21 2017
 ****************************************
 
 
@@ -51,11 +51,11 @@ M9         none          ---         ---       via additive      ---
       Sub-Region Utilization      
 **********************************
 Number of regions with placement utilization 0 - 0.125 is 0 (0.00%)
-Number of regions with placement utilization 0.125 - 0.25 is 0 (0.00%)
-Number of regions with placement utilization 0.25 - 0.375 is 36 (0.91%)
-Number of regions with placement utilization 0.375 - 0.5 is 1762 (44.39%)
-Number of regions with placement utilization 0.5 - 0.625 is 2148 (54.12%)
-Number of regions with placement utilization 0.625 - 0.75 is 21 (0.53%)
-Number of regions with placement utilization 0.75 - 0.875 is 2 (0.05%)
+Number of regions with placement utilization 0.125 - 0.25 is 2 (0.04%)
+Number of regions with placement utilization 0.25 - 0.375 is 194 (4.07%)
+Number of regions with placement utilization 0.375 - 0.5 is 2563 (53.83%)
+Number of regions with placement utilization 0.5 - 0.625 is 1951 (40.98%)
+Number of regions with placement utilization 0.625 - 0.75 is 50 (1.05%)
+Number of regions with placement utilization 0.75 - 0.875 is 1 (0.02%)
 Number of regions with placement utilization 0.875 - 1 is 0 (0.00%)
 1

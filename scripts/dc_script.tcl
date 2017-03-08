@@ -13,9 +13,11 @@ define_design_lib WORK -path ./work
 
 analyze -f verilog [list common/swrvr_dlib.v common/synchronizer_asr.v common/cluster_header.v pr_macro/mul64.v common/test_stub_scan.v srams/bw_r_rf16x160.v rtl/fpu.v]
 
-elaborate fpu
+elaborate -architecture verilog fpu
+check_design > report/synth_design_check.rpt
+
 link
-write -hier -f -ddc -output -unmapped/fpu.ddc
+write -hier -f ddc -output unmapped/fpu.ddc
 read_ddc unmapped/fpu.ddc
 
 set default_clk gclk
@@ -28,7 +30,6 @@ set clk_list {{ gclk 1200.0 0.100 0.100 0.040 }}
 
 create_clock -period 2 [get_ports gclk]
 
-check_design
 check_timing
 report_timing_requirements
 current_design

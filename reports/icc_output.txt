@@ -1,0 +1,83 @@
+Initializing gui preferences from file  /home/DREXEL/ekw47/.synopsys_icc_prefs.tcl
+icc_shell> gui_start
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib /home/DREXEL/ekw47/ASIC_PROJECT/fpu_design.mw
+{fpu_design.mw}
+icc_shell> ::iccGUI::open_mw_cel  fpu_extracted
+icc_shell> open_mw_cel fpu_extracted
+Preparing data for query................... 
+Warning: No valid link library found; check the link_library variable. (IFS-008)
+Information: Opened "fpu_extracted.CEL;1" from "/home/DREXEL/ekw47/ASIC_PROJECT/fpu_design.mw" library. (MWUI-068)
+{fpu_extracted}
+icc_shell> 
+icc_shell> 
+Loading db file '/opt/synopsys/2016/icc/libraries/syn/gtech.db'
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Error: Fail to rebuild timing design from database (UID-841)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clocks matching '*'. (UID-109)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clocks matching '*'. (UID-109)
+icc_shell> place_opt  -effort low -power -area_recovery -cts
+Information: linking reference library : /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/fram/saed90nm. (PSYN-878)
+Error: No valid link library specified, please check library setup. (PSYN-958)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Error: Fail to rebuild timing design from database (UID-841)
+0
+icc_shell> exi
+Error: unknown command 'exi' (CMD-005)
+icc_shell> exit
+
+Thank you...
+

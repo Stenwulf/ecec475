@@ -1,7 +1,8 @@
-lappend search_path /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/
+lappend search_path "/mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/"
 
-set link_library  "* saed90nm_max.db saed90nm_min.db saed90nm_typ.db"
+set link_library  "*saed90nm_max.db saed90nm_min.db saed90nm_typ.db"
 set target_library "saed90nm_typ.db"
+
 set mw_logic0_net VSS
 set mw_logic1_net VDD
 
@@ -11,7 +12,7 @@ create_mw_lib -technology /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Sta
 
 open_mw_lib fpu_design.mw/
 
-import_designs "./work/fpu.ddc" -format ddc -top "fpu" -cel "fpu"
+import_designs "./work/fpu.ddc" -format ddc
 
 create_floorplan -core_utilization 0.5 -start_first_row -left_io2core 5.0 -bottom_io2core 5.0 -right_io2core 5.0 -top_io2core 5.0
 
@@ -31,7 +32,6 @@ set_power_options -leakage true
 
 place-opt -congestion -area_recovery -effort low
 place_opt -effort low -area_recovery -power
-
 
 preroute_standard_cells -remove_floating_pieces
 
