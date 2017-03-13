@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : clock tree
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar 13 14:54:56 2017
+****************************************
+
+Information: Float pin scale factor for the 'max' operating condition of scenario 'default' is set to 1.000 (CTS-375)
+
+------------------------------------------------------
+DRC violations on clock tree
+Clock Tree Name                   : gclk
+Clock Root Pin                    : gclk
+------------------------------------------------------
+Number of MaxTran Violators       : 0
+Number of MaxCap Violators        : 2
+Number of MaxFanout Violators     : 0
+
+Max Capacitance Violators:
+                             Actual         Required
+Net           Pin            Max            Constraint     Slack
+---------------------------------------------------------------------
+rclk_G3B2I5   NBUFFX8_G3B2I5/Z
+                              65.9707        48.0000       -17.9707
+rclk_G3B2I4   NBUFFX8_G3B2I4/Z
+                              54.3450        48.0000        -6.3450
+1

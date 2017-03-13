@@ -1,0 +1,80 @@
+***********************************************
+Report          : create_qor_snapshot (InitQOR)
+Design          : fpu
+Version         : L-2016.03-SP5-1
+Date            : Mon Mar 13 14:54:54 2017
+Time unit       : 1.0e-09 Second(ns)
+Capacitance unit: N/A
+Voltage unit    : 1 Volt
+Power unit      : N/A
+Location        : /home/DREXEL/ekw47/ASIC_PROJECT/snapshot
+***********************************************
+No. of scenario = 1
+--------------------------------------------------
+WNS of each timing group:                
+--------------------------------------------------
+gclk                                         0.000 
+--------------------------------------------------
+Setup WNS:                                   0.000 
+Setup TNS:                                     0.0
+Number of setup violations:                      0  
+Hold WNS:                                    0.000  
+Hold TNS:                                    0.000  
+Number of hold violations:                       0  
+Number of max trans violations:                  0  
+Number of max cap violations:                    2  
+--------------------------------------------------
+Number of min pulse width violations:            0  
+--------------------------------------------------
+Route drc violations:                            0
+Route overflow:                                  0
+Route Max blocks:                                0
+Route GRCs:                                      0
+Route GRCs %:                                    0
+Track total wire length:                         0
+Signal total wire length:                1611824.00(315728)
+Signal total contacts:                       289256
+PG total wire length:                    118340.84(424)
+PG total contacts:                            2175
+Horizontal/Vertical distribution:        827847.69/783976.31
+Leakage(mW):                                1.9870 
+--------------------------------------------------
+Area:                                       422336
+Cell count:                                  32467
+Buf/inv cell count:                           2326
+Std cell utilization:                       60.85%
+CPU/ELAPSE(hr):                          0.04/0.13
+Mem(Mb):                                       567
+Host name:                               xunil-03.coe.drexel.edu
+--------------------------------------------------
+Histogram:           
+--------------------------------------------------
+Max violations:         0 
+   above ~ -0.7  ---    0 
+    -0.6 ~ -0.7  ---    0 
+    -0.5 ~ -0.6  ---    0 
+    -0.4 ~ -0.5  ---    0 
+    -0.3 ~ -0.4  ---    0 
+    -0.2 ~ -0.3  ---    0 
+    -0.1 ~ -0.2  ---    0 
+       0 ~ -0.1  ---    0 
+--------------------------------------------------
+Min violations:         0 
+  -0.06 ~ above  ---    0 
+  -0.05 ~ -0.06  ---    0 
+  -0.04 ~ -0.05  ---    0 
+  -0.03 ~ -0.04  ---    0 
+  -0.02 ~ -0.03  ---    0 
+  -0.01 ~ -0.02  ---    0 
+      0 ~ -0.01  ---    0 
+--------------------------------------------------
+Global Skew Report:                  CT Buf    Period 
+--------------------------------------------------
+gclk                 0.071/0.545     225      2.0000 
+--------------------------------------------------
+Worst Skew                 0.071 
+Worst Delay                0.545 
+Max Transitions                0 
+Max Caps                       2 
+Max Fanouts                    0 
+--------------------------------------------------

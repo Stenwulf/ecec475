@@ -1,0 +1,76 @@
+ 
+****************************************
+Report : clock tree
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar 13 14:54:55 2017
+****************************************
+
+Information: Float pin scale factor for the 'max' operating condition of scenario 'default' is set to 1.000 (CTS-375)
+
+============ Global Skew Report ================
+
+Clock Tree Name                : "gclk"
+Clock Period                   : 2.00000        
+Clock Tree root pin            : "gclk"
+Number of Levels               : 7
+Number of Sinks                : 4552
+Number of CT Buffers           : 225
+Number of CTS added gates      : 0
+Number of Preexisting Gates    : 9
+Number of Preexisting Buf/Inv  : 8
+Total Number of Clock Cells    : 242
+Total Area of CT Buffers       : 3387.80518     
+Total Area of CT cells         : 3531.57544     
+Max Global Skew                : 0.07111   
+Number of MaxTran Violators    : 0
+Number of MaxCap Violators     : 2
+Number of MaxFanout Violators  : 0
+
+
+Operating Condition               worst
+Clock global Skew                 0.071
+Longest path delay                0.545
+Shortest path delay               0.474
+
+The longest path delay end pin: fpu_mul/i_m4stg_frac/ffrs1/q_reg[35]/CLK
+The shortest path delay end pin: fpu_mul/fpu_mul_frac_dp/i_mul_frac_in2/q_reg[29]/CLK
+
+The longest Path:
+Pin                                         Cap       Fanout    Trans     Incr      Arri
+----------------------------------------------------------------------------------------------------
+gclk                                        0.000            1  0.000     0.000     0.000     r
+gclk                                        46.286           2  0.000     0.000     0.000     r
+U2423/INP                                   46.286           1  0.008     0.003     0.003     r
+U2423/ZN                                    19.791           2  0.012     0.011     0.014     f
+U2424/IN2                                   19.791           1  0.012     0.000     0.014     f
+U2424/QN                                    83.346           7  0.149     0.072     0.086     r
+NBUFFX8_G3B3I2/INP                          83.346           1  0.150     0.006     0.092     r
+NBUFFX8_G3B3I2/Z                            44.194           3  0.084     0.141     0.233     r
+NBUFFX8_G3B2I14/INP                         44.194           1  0.084     0.003     0.236     r
+NBUFFX8_G3B2I14/Z                           45.618           6  0.081     0.121     0.357     r
+fpu_mul/i_m4stg_frac/U1229/IN1              45.618           1  0.082     0.001     0.358     r
+fpu_mul/i_m4stg_frac/U1229/Q                182.170         76  0.180     0.184     0.542     r
+fpu_mul/i_m4stg_frac/ffrs1/q_reg[35]/CLK    182.170          0  0.180     0.003     0.545     r
+[clock delay]                                                                       0.545
+----------------------------------------------------------------------------------------------------
+
+The Shortest Path:
+Pin                                         Cap       Fanout    Trans     Incr      Arri
+----------------------------------------------------------------------------------------------------
+gclk                                        0.000            1  0.000     0.000     0.000     r
+gclk                                        46.286           2  0.000     0.000     0.000     r
+U2423/INP                                   46.286           1  0.008     0.003     0.003     r
+U2423/ZN                                    19.791           2  0.012     0.011     0.014     f
+U2424/IN2                                   19.791           1  0.012     0.000     0.014     f
+U2424/QN                                    83.346           7  0.149     0.072     0.086     r
+fpu_mul/fpu_mul_frac_dp/U2032/IN1           83.346           1  0.149     0.001     0.087     r
+fpu_mul/fpu_mul_frac_dp/U2032/Q             161.354         15  0.282     0.205     0.292     r
+fpu_mul/fpu_mul_frac_dp/NBUFFX16_G4B1I9/INP 161.354          1  0.282     0.006     0.298     r
+fpu_mul/fpu_mul_frac_dp/NBUFFX16_G4B1I9/Z   30.261           8  0.106     0.175     0.473     r
+fpu_mul/fpu_mul_frac_dp/i_mul_frac_in2/q_reg[29]/CLK
+                                            30.261           0  0.106     0.001     0.474     r
+[clock delay]                                                                       0.474
+----------------------------------------------------------------------------------------------------
+
+1

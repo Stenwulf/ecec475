@@ -1,0 +1,22 @@
+ 
+****************************************
+Report : clock tree
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar 13 14:54:58 2017
+****************************************
+
+Information: Float pin scale factor for the 'max' operating condition of scenario 'default' is set to 1.000 (CTS-375)
+
+Detecting skew bottleneck for clock gclk started at root gclk, skew threshold is 0.050 ...
+  Driver: gclk (skew 0.071)     Load: CTS_gclk_CTO_delay2/INP (skew 0.000)     Net gclk: delay 0.000
+  Driver: U2423/ZN (skew 0.071)     Load: CTS_gclk_CTO_delay1/INP (skew 0.001)     Net n747: delay 0.000
+  Driver: U2424/QN (skew 0.071)     Load: fpu_div/fpu_div_frac_dp/U1608/IN1 (skew 0.019)     Net rclk: delay 0.005
+  Driver: NBUFFX8_G3B3I1/Z (skew 0.061)     Load: NBUFFX8_G3B2I6/INP (skew 0.003)     Net rclk_G3B1I1: delay 0.000
+  Driver: NBUFFX8_G3B3I3/Z (skew 0.056)     Load: fpu_add/NBUFFX16_G3B2I7/INP (skew 0.002)     Net rclk_G3B1I3: delay 0.002
+  Driver: NBUFFX8_G3B2I14/Z (skew 0.053)     Load: NBUFFX8_G3B1I89/INP (skew 0.001)     Net rclk_G3B2I14: delay 0.001
+  Driver: NBUFFX8_G3B2I14/Z (skew 0.053)     Load: NBUFFX8_G3B1I73/INP (skew 0.001)     Net rclk_G3B2I14: delay 0.000
+  Driver: NBUFFX8_G3B2I14/Z (skew 0.053)     Load: NBUFFX8_G3B1I1/INP (skew 0.000)     Net rclk_G3B2I14: delay 0.001
+  Driver: NBUFFX8_G3B2I14/Z (skew 0.053)     Load: NBUFFX8_G3B1I84/INP (skew 0.001)     Net rclk_G3B2I14: delay 0.000
+  Driver: NBUFFX8_G3B2I14/Z (skew 0.053)     Load: NBUFFX8_G3B1I4/INP (skew 0.000)     Net rclk_G3B2I14: delay 0.001
+1

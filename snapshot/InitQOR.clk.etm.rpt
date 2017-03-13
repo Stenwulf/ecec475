@@ -1,0 +1,12 @@
+ 
+****************************************
+Report : clock tree
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar 13 14:54:57 2017
+****************************************
+
+Information: Float pin scale factor for the 'max' operating condition of scenario 'default' is set to 1.000 (CTS-375)
+
+Detecting skew issue inside block/ETM for clock gclk started at root gclk, skew threshold is 0.000 ...
+1

@@ -1,0 +1,56 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar 13 14:54:53 2017
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ (File: /mnt/class_data/ecec574-f2016/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fpu                    540000            saed90nm_typ
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   3.6921 mW   (38%)
+  Net Switching Power  =   5.9222 mW   (62%)
+                         ---------
+Total Dynamic Power    =   9.6143 mW  (100%)
+
+Cell Leakage Power     =   1.9870 mW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  1.9097e+03        4.5838e+03        8.0636e+06        6.5015e+03  (  56.04%)
+register         751.8723          292.1642        6.1271e+08        1.6567e+03  (  14.28%)
+sequential     -2.1969e-03        1.4190e-02        2.6470e+08          264.7076 (   2.28%)
+combinational  1.0306e+03        1.0462e+03        1.1016e+09        3.1783e+03  (  27.40%)
+--------------------------------------------------------------------------------------------------
+Total          3.6921e+03 uW     5.9222e+03 uW     1.9870e+09 pW     1.1601e+04 uW
+1

@@ -1,0 +1,102 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay min
+        -physical
+        -derate
+        -input_pins
+        -nets
+        -max_paths 1
+        -transition_time
+        -crosstalk_delta
+        -capacitance
+Design : fpu
+Version: L-2016.03-SP5-1
+Date   : Mon Mar 13 14:54:48 2017
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+
+Information: Percent of Arnoldi-based delays = 25.47%
+
+  Startpoint: fpu_add/fpu_add_ctl/i_a1stg_op/q_reg[6]
+              (rising edge-triggered flip-flop clocked by gclk)
+  Endpoint: fpu_add/fpu_add_ctl/i_a2stg_opdec/q_reg[10]
+            (rising edge-triggered flip-flop clocked by gclk)
+  Path Group: gclk
+  Path Type: min
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+
+  Point                                       Fanout       Cap     DTran     Trans     Delta     Derate      Incr       Path      Location / Load        Attributes
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  clock gclk (rise edge)                                                                                    0.000      0.000
+  gclk (in)                                                                  0.000                          0.000 @    0.000 r    (843.76,450.36)
+  gclk (net)                                    2       44.710                                              0.000      0.000 r    [14.06,44.71]          d 
+  U2423/INP (INVX8)                                                0.000     0.008     0.000                0.003 @    0.003 r    (673.35,452.85)        d 
+  U2423/ZN (INVX8)                                                           0.012                          0.011 @    0.013 f    (673.87,452.72)        d 
+  n747 (net)                                    2       18.555                                              0.000      0.013 f    [4.72,18.56]           d 
+  U2424/IN2 (NOR2X4)                                               0.000     0.012     0.000                0.000 @    0.014 f    (629.46,455.36)        d 
+  U2424/QN (NOR2X4)                                                          0.132                          0.065 @    0.078 r    (628.64,455.34)        d 
+  rclk (net)                                    7       73.969                                              0.000      0.078 r    [55.78,73.97]          d 
+  NBUFFX8_G3B3I3/INP (NBUFFX8)                                     0.000     0.132     0.000                0.002 @    0.081 r    (629.16,570.76)        d 
+  NBUFFX8_G3B3I3/Z (NBUFFX8)                                                 0.093                          0.139 @    0.219 r    (631.59,570.92)        d 
+  rclk_G3B1I3 (net)                             8       58.995                                              0.000      0.219 r    [37.25,59.00]          d 
+  NBUFFX8_G3B2I4/INP (NBUFFX2)                                     0.000     0.093     0.000                0.000 @    0.220 r    (632.80,593.93)        d 
+  NBUFFX8_G3B2I4/Z (NBUFFX2)                                                 0.102                          0.114 @    0.334 r    (632.18,593.96)        d 
+  rclk_G3B2I4 (net)                             8       47.651                                              0.000      0.334 r    [15.55,47.65]          d 
+  fpu_add/rclk_cts_6_4 (fpu_add)                                                                            0.000      0.334 r    (netlink)
+  fpu_add/rclk_cts_6_4 (net)                            47.651                                              0.000      0.334 r    [15.55,47.65]          d 
+  fpu_add/NBUFFX16_G3B1I18/INP (NBUFFX8)                           0.000     0.102     0.000                0.000 @    0.334 r    (638.12,597.00)        d 
+  fpu_add/NBUFFX16_G3B1I18/Z (NBUFFX8)                                       0.059                          0.113 @    0.447 r    (635.69,596.84)        d 
+  fpu_add/rclk_G3B3I18 (net)                    4       12.468                                              0.000      0.447 r    [6.91,12.47]           d 
+  fpu_add/fpu_add_ctl/i_a1stg_op/q_reg[6]/CLK (DFFX1)              0.000     0.059     0.000                0.000 @    0.447 r    (652.51,631.21)
+  fpu_add/fpu_add_ctl/i_a1stg_op/q_reg[6]/CLK (DFFX1)              0.000     0.059     0.000                0.000      0.447 r    (652.51,631.21)
+  fpu_add/fpu_add_ctl/i_a1stg_op/q_reg[6]/QN (DFFX1)                         0.068                          0.147      0.594 f    (658.21,630.83)
+  fpu_add/n1368 (net)                           3       12.063                                              0.000      0.594 f    [5.28,12.06]
+  fpu_add/U1315/IN4 (AO22X1)                                       0.000     0.068     0.000                0.000 &    0.594 f    (684.56,628.70)
+  fpu_add/U1315/Q (AO22X1)                                                   0.033                          0.076      0.670 f    (683.78,628.45)
+  fpu_add/n921 (net)                            1        2.303                                              0.000      0.670 f    [0.63,2.30]
+  fpu_add/fpu_add_ctl/i_a2stg_opdec/q_reg[10]/D (DFFX1)            0.000     0.033     0.000                0.000 &    0.670 f    (687.71,628.71)
+  data arrival time                                                                                                    0.670
+
+  clock gclk (rise edge)                                                                                    0.000      0.000
+  gclk (in)                                                                  0.000                          0.000 @    0.000 r    (843.76,450.36)
+  gclk (net)                                    2       44.710                                              0.000      0.000 r    [14.06,44.71]          d 
+  U2423/INP (INVX8)                                                0.000     0.008     0.000                0.003 @    0.003 r    (673.35,452.85)        d 
+  U2423/ZN (INVX8)                                                           0.012                          0.011 @    0.013 f    (673.87,452.72)        d 
+  n747 (net)                                    2       18.555                                              0.000      0.013 f    [4.72,18.56]           d 
+  U2424/IN2 (NOR2X4)                                               0.000     0.012     0.000                0.000 @    0.014 f    (629.46,455.36)        d 
+  U2424/QN (NOR2X4)                                                          0.132                          0.065 @    0.078 r    (628.64,455.34)        d 
+  rclk (net)                                    7       73.969                                              0.000      0.078 r    [55.78,73.97]          d 
+  NBUFFX8_G3B3I3/INP (NBUFFX8)                                     0.000     0.132     0.000                0.002 @    0.081 r    (629.16,570.76)        d 
+  NBUFFX8_G3B3I3/Z (NBUFFX8)                                                 0.093                          0.139 @    0.219 r    (631.59,570.92)        d 
+  rclk_G3B1I3 (net)                             8       58.995                                              0.000      0.219 r    [37.25,59.00]          d 
+  NBUFFX8_G3B2I10/INP (NBUFFX8)                                    0.000     0.093     0.000                0.001 @    0.220 r    (645.16,579.72)        d 
+  NBUFFX8_G3B2I10/Z (NBUFFX8)                                                0.084                          0.125 @    0.345 r    (642.73,579.56)        d 
+  rclk_G3B2I10 (net)                            6       50.993                                              0.000      0.345 r    [18.57,50.99]          d 
+  fpu_add/rclk_cts_5_4 (fpu_add)                                                                            0.000      0.345 r    (netlink)
+  fpu_add/rclk_cts_5_4 (net)                            50.993                                              0.000      0.345 r    [18.57,50.99]          d 
+  fpu_add/NBUFFX16_G3B1I25/INP (NBUFFX32)                          0.000     0.084     0.000                0.002 @    0.347 r    (678.74,634.12)        d 
+  fpu_add/NBUFFX16_G3B1I25/Z (NBUFFX32)                                      0.069                          0.149 @    0.496 r    (689.74,634.32)        d 
+  fpu_add/rclk_G3B3I25 (net)                    4        8.915                                              0.000      0.496 r    [3.36,8.91]            d 
+  fpu_add/fpu_add_ctl/i_a2stg_opdec/q_reg[10]/CLK (DFFX1)          0.000     0.069     0.000                0.000 @    0.496 r    (688.35,628.71)
+  fpu_add/fpu_add_ctl/i_a2stg_opdec/q_reg[10]/CLK (DFFX1)                                                   0.000      0.496 r
+  library hold time                                                                                         0.008      0.503
+  data required time                                                                                                   0.503
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                                   0.503
+  data arrival time                                                                                                   -0.670
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                                          0.167
+
+
+1
