@@ -1,0 +1,218 @@
+Checking out Encounter license ...
+	edsxl		CHECKED OUT:	"Encounter_Digital_Impl_Sys_XL"
+Encounter_Digital_Impl_Sys_XL 14.2 license checkout succeeded.
+You can run 2 CPU jobs with the base license that is currently checked out.
+If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+**ERROR: (ENCOAX-142):	Could not open shared library libfeoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+
+**ERROR: (ENCOAX-142):	OA features will be disabled in this session.
+
+*******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+@(#)CDS: Encounter v14.28-s033_1 (64bit) 03/21/2016 13:34 (Linux 2.6.18-194.el5)
+@(#)CDS: NanoRoute v14.28-s005 NR160313-1959/14_28-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+@(#)CDS: CeltIC v14.28-s006_1 (64bit) 03/08/2016 00:08:23 (Linux 2.6.18-194.el5)
+@(#)CDS: AAE 14.28-s002 (64bit) 03/21/2016 (Linux 2.6.18-194.el5)
+@(#)CDS: CTE 14.28-s007_1 (64bit) Mar  7 2016 23:11:05 (Linux 2.6.18-194.el5)
+@(#)CDS: CPE v14.28-s006
+@(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+@(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+@(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+@(#)CDS: RCDB 11.5
+--- Starting "Encounter v14.28-s033_1" on Sat Mar 11 16:25:02 2017 (mem=94.1M) ---
+--- Running on xunil-03.coe.drexel.edu (x86_64 w/Linux 3.10.0-514.2.2.el7.x86_64) ---
+This version was compiled on Mon Mar 21 13:34:48 PDT 2016.
+Set DBUPerIGU to 1000.
+Set net toggle Scale Factor to 1.00
+Set Shrink Factor to 1.00000
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> set init_gnd_net GND
+<CMD> set init_lef_file /mnt/class_data/ecec571-f2015/NCSU_FreePDK45/osu_soc/lib/files/gscl45nm.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog work/fpu.v
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+**ERROR: (ENCOAX-820):	The OA features are disabled in the current session of Encounter because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Encounter either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (ENCOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+
+Loading LEF file /mnt/class_data/ecec571-f2015/NCSU_FreePDK45/osu_soc/lib/files/gscl45nm.lef ...
+**WARN: (ENCLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POLY', 
+Set DBUPerIGU to M2 pitch 380.
+
+viaInitial starts at Sat Mar 11 16:27:01 2017
+viaInitial ends at Sat Mar 11 16:27:01 2017
+*** Begin netlist parsing (mem=346.0M) ***
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'work/fpu.v'
+**WARN: (ENCVL-346):	Module 'DFFX1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'LATCHX1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'MUX21X2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'MUX21X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'NBUFFX8' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'NAND2X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'INVX0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'NAND3X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'NOR2X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'NBUFFX2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6507 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN1' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6507 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN2' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6507 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'Q' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6508 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'NOR2X1' is LEF-defined, but the pin 'IN1' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6508 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'NOR2X1' is LEF-defined, but the pin 'IN2' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6508 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'NOR2X1' is LEF-defined, but the pin 'QN' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6510 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN1' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6510 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN2' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6510 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'Q' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6513 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'NOR2X1' is LEF-defined, but the pin 'IN1' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6513 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'NOR2X1' is LEF-defined, but the pin 'IN2' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6513 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'NOR2X1' is LEF-defined, but the pin 'QN' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6515 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN1' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6515 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN2' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6515 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'Q' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6520 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN1' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6520 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN2' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6520 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'Q' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6523 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN1' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**ERROR: (ENCVL-209):	In Verilog file 'work/fpu.v', check line 6523 near the text ) for the issue: 'undefined instance port'.  Update the text accordingly.
+Type 'man ENCVL-209' for more detail.
+**ERROR: (ENCVL-356):	The macro cell 'OR2X1' is LEF-defined, but the pin 'IN2' used in the netlist is not defined in LEF. Check and correct the pin name, or define the pin in LEF file.
+Type 'man ENCVL-356' for more detail.
+**WARN: (EMS-63):	Message <ENCVL-209> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+**WARN: (EMS-63):	Message <ENCVL-356> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+**WARN: (ENCVL-346):	Module 'NAND4X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'AO22X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'NOR4X0' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'OR4X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'OA21X1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'DFFARX1' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'DFFX2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'AO22X2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'AND2X4' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (ENCVL-346):	Module 'OAI21X2' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man ENCVL-346' for more detail.
+**WARN: (EMS-63):	Message <ENCVL-346> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+**FATAL ERROR: [/icd/cm_t1nb_003/EDI142/Rel/14.28/main/lnx86_64_opt/14.28-s033_1/fe/src/vl/vlVerilogLex.l:1000:vlVerilog_yyerror]: Too many errors in verilog file work/fpu.v ... aborting
+Exiting due to previous fatal error.

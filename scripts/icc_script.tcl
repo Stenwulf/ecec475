@@ -14,7 +14,7 @@ open_mw_lib fpu_design.mw/
 
 import_designs "./work/fpu.ddc" -format ddc
 
-create_floorplan -core_utilization 0.5 -start_first_row -left_io2core 5.0 -bottom_io2core 5.0 -right_io2core 5.0 -top_io2core 5.0
+create_floorplan -core_utilization 0.7 -start_first_row -left_io2core 5.0 -bottom_io2core 5.0 -right_io2core 5.0 -top_io2core 5.0
 
 derive_pg_connection -power_net VDD -ground_net VSS
 derive_pg_connection -power_net VDD -ground_net VSS -tie
@@ -56,5 +56,6 @@ report_qor > reports/place_qor.rpt
 report_design > reports/place_design.rpt
 report_summary> reports/place_summary.rpt
 report_power > reports/place_power.rpt
+report_clock > reports/place_clock.rpt
 
 save_mw_cel -as fpu_extracted

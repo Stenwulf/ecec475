@@ -6,7 +6,7 @@ Report : timing
         -max_paths 1
 Design : fpu
 Version: L-2016.03-SP5-1
-Date   : Wed Mar  8 03:49:40 2017
+Date   : Wed Mar  8 12:53:22 2017
 ****************************************
 
  * Some/all delay information is back-annotated.
@@ -17,11 +17,11 @@ Operating Conditions: TYPICAL   Library: saed90nm_typ
 	Extraction mode     : MIN_MAX
 	Extraction derating : 25/25/25
 
-Information: Percent of Arnoldi-based delays = 25.97%
+Information: Percent of Arnoldi-based delays = 24.83%
 
-  Startpoint: fpu_in/fpu_in_dp/i_fp_op_in/q_reg[7]
+  Startpoint: fpu_in/fpu_in_ctl/i_fp_data_rdy/q_reg[0]
               (rising edge-triggered flip-flop clocked by gclk)
-  Endpoint: fpu_add/fpu_add_frac_dp/ckbuf_add_frac_dp/clken_reg
+  Endpoint: fpu_div/fpu_div_frac_dp/ckbuf_div_frac_dp/clken_reg
             (positive level-sensitive latch clocked by gclk')
   Path Group: gclk
   Path Type: max
@@ -29,42 +29,48 @@ Information: Percent of Arnoldi-based delays = 25.97%
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
   clock gclk (rise edge)                                  0.00       0.00
-  clock network delay (propagated)                        0.59       0.59
-  fpu_in/fpu_in_dp/i_fp_op_in/q_reg[7]/CLK (DFFX1)        0.00       0.59 r
-  fpu_in/fpu_in_dp/i_fp_op_in/q_reg[7]/QN (DFFX1)         0.30 @     0.89 r
-  U1575/Z (NBUFFX8)                                       0.24 @     1.12 r
-  U1754/QN (NOR3X0)                                       0.10 @     1.23 f
-  U1755/Q (AO21X1)                                        0.09 &     1.32 f
-  U1763/Q (MUX21X1)                                       0.15 @     1.47 f
-  U1764/QN (NOR4X0)                                       0.17 @     1.64 r
-  fpu_add/fadd_clken_l (fpu_add)                          0.00       1.64 r
-  fpu_add/fpu_add_frac_dp/fadd_clken_l (fpu_add_frac_dp)
-                                                          0.00       1.64 r
-  fpu_add/fpu_add_frac_dp/U534/QN (NAND2X0)               0.07 &     1.71 f
-  fpu_add/fpu_add_frac_dp/ckbuf_add_frac_dp/clken_reg/D (LATCHX1)
-                                                          0.00 &     1.71 f
-  data arrival time                                                  1.71
+  clock network delay (propagated)                        0.53       0.53
+  fpu_in/fpu_in_ctl/i_fp_data_rdy/q_reg[0]/CLK (DFFX1)
+                                                          0.00       0.53 r
+  fpu_in/fpu_in_ctl/i_fp_data_rdy/q_reg[0]/Q (DFFX1)      0.21       0.74 f
+  U1594/QN (NAND2X0)                                      0.04 &     0.79 r
+  U1595/QN (NOR3X0)                                       0.04 &     0.83 f
+  U1487/QN (NAND3X2)                                      0.14 @     0.97 r
+  U1596/QN (NOR3X0)                                       0.08 @     1.05 f
+  U1597/QN (NAND2X0)                                      0.08 &     1.13 r
+  U1532/ZN (INVX0)                                        0.03 &     1.17 f
+  U1506/QN (NAND4X0)                                      0.05 &     1.22 r
+  U1775/QN (NOR2X0)                                       0.06 &     1.27 f
+  U1783/Q (AO22X1)                                        0.14 &     1.41 f
+  U2751/QN (NOR4X0)                                       0.16 &     1.57 r
+  fpu_div/fdiv_clken_l (fpu_div)                          0.00       1.57 r
+  fpu_div/fpu_div_frac_dp/fdiv_clken_l (fpu_div_frac_dp)
+                                                          0.00       1.57 r
+  fpu_div/fpu_div_frac_dp/U175/QN (NAND2X0)               0.06 &     1.63 f
+  fpu_div/fpu_div_frac_dp/ckbuf_div_frac_dp/clken_reg/D (LASRQX1)
+                                                          0.00 &     1.63 f
+  data arrival time                                                  1.63
 
   clock gclk' (rise edge)                                 1.00       1.00
-  clock network delay (propagated)                        0.56       1.56
-  fpu_add/fpu_add_frac_dp/ckbuf_add_frac_dp/clken_reg/CLK (LATCHX1)
-                                                          0.00       1.56 r
-  time borrowed from endpoint                             0.15       1.71
-  data required time                                                 1.71
+  clock network delay (propagated)                        0.52       1.52
+  fpu_div/fpu_div_frac_dp/ckbuf_div_frac_dp/clken_reg/CLK (LASRQX1)
+                                                          0.00       1.52 r
+  time borrowed from endpoint                             0.11       1.63
+  data required time                                                 1.63
   --------------------------------------------------------------------------
-  data required time                                                 1.71
-  data arrival time                                                 -1.71
+  data required time                                                 1.63
+  data arrival time                                                 -1.63
   --------------------------------------------------------------------------
   slack (MET)                                                        0.00
 
   Time Borrowing Information
   --------------------------------------------------------------
   gclk' nominal pulse width                               1.00   
-  clock latency difference                                0.01   
-  library setup time                                     -0.09   
+  clock latency difference                               -0.01   
+  library setup time                                     -0.07   
   --------------------------------------------------------------
   max time borrow                                         0.92   
-  actual time borrow                                      0.15   
+  actual time borrow                                      0.11   
   --------------------------------------------------------------
 
 
