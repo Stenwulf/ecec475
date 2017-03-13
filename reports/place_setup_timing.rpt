@@ -6,7 +6,7 @@ Report : timing
         -max_paths 1
 Design : fpu
 Version: L-2016.03-SP5-1
-Date   : Wed Mar  8 12:53:22 2017
+Date   : Mon Mar 13 14:03:32 2017
 ****************************************
 
  * Some/all delay information is back-annotated.
@@ -17,11 +17,11 @@ Operating Conditions: TYPICAL   Library: saed90nm_typ
 	Extraction mode     : MIN_MAX
 	Extraction derating : 25/25/25
 
-Information: Percent of Arnoldi-based delays = 24.83%
+Information: Percent of Arnoldi-based delays = 25.47%
 
-  Startpoint: fpu_in/fpu_in_ctl/i_fp_data_rdy/q_reg[0]
+  Startpoint: fpu_in/fpu_in_ctl/i_fp_type_in/q_reg[1]
               (rising edge-triggered flip-flop clocked by gclk)
-  Endpoint: fpu_div/fpu_div_frac_dp/ckbuf_div_frac_dp/clken_reg
+  Endpoint: fpu_mul/fpu_mul_exp_dp/ckbuf_mul_exp_dp/clken_reg
             (positive level-sensitive latch clocked by gclk')
   Path Group: gclk
   Path Type: max
@@ -30,47 +30,48 @@ Information: Percent of Arnoldi-based delays = 24.83%
   --------------------------------------------------------------------------
   clock gclk (rise edge)                                  0.00       0.00
   clock network delay (propagated)                        0.53       0.53
-  fpu_in/fpu_in_ctl/i_fp_data_rdy/q_reg[0]/CLK (DFFX1)
-                                                          0.00       0.53 r
-  fpu_in/fpu_in_ctl/i_fp_data_rdy/q_reg[0]/Q (DFFX1)      0.21       0.74 f
-  U1594/QN (NAND2X0)                                      0.04 &     0.79 r
-  U1595/QN (NOR3X0)                                       0.04 &     0.83 f
-  U1487/QN (NAND3X2)                                      0.14 @     0.97 r
-  U1596/QN (NOR3X0)                                       0.08 @     1.05 f
-  U1597/QN (NAND2X0)                                      0.08 &     1.13 r
-  U1532/ZN (INVX0)                                        0.03 &     1.17 f
-  U1506/QN (NAND4X0)                                      0.05 &     1.22 r
-  U1775/QN (NOR2X0)                                       0.06 &     1.27 f
-  U1783/Q (AO22X1)                                        0.14 &     1.41 f
-  U2751/QN (NOR4X0)                                       0.16 &     1.57 r
-  fpu_div/fdiv_clken_l (fpu_div)                          0.00       1.57 r
-  fpu_div/fpu_div_frac_dp/fdiv_clken_l (fpu_div_frac_dp)
-                                                          0.00       1.57 r
-  fpu_div/fpu_div_frac_dp/U175/QN (NAND2X0)               0.06 &     1.63 f
-  fpu_div/fpu_div_frac_dp/ckbuf_div_frac_dp/clken_reg/D (LASRQX1)
-                                                          0.00 &     1.63 f
-  data arrival time                                                  1.63
+  fpu_in/fpu_in_ctl/i_fp_type_in/q_reg[1]/CLK (DFFX1)     0.00       0.53 r
+  fpu_in/fpu_in_ctl/i_fp_type_in/q_reg[1]/Q (DFFX1)       0.21       0.74 f
+  U1564/ZN (INVX4)                                        0.02 &     0.77 r
+  U1575/ZN (INVX4)                                        0.02 @     0.79 f
+  U1594/QN (NAND2X4)                                      0.03 @     0.82 r
+  U1595/QN (NOR3X0)                                       0.06 @     0.88 f
+  U2842/QN (NAND2X2)                                      0.05 &     0.93 r
+  U1592/ZN (INVX4)                                        0.03 @     0.95 f
+  U1596/ZN (INVX4)                                        0.03 @     0.98 r
+  U1540/QN (NOR2X1)                                       0.06 @     1.04 f
+  U1597/QN (NAND2X2)                                      0.05 &     1.09 r
+  U2848/ZN (INVX0)                                        0.03 &     1.13 f
+  U2847/QN (NAND4X0)                                      0.04 &     1.17 r
+  U1609/Q (OA21X1)                                        0.11 &     1.28 r
+  U1773/Q (MUX21X1)                                       0.11 &     1.39 f
+  U1774/QN (NOR4X0)                                       0.25 &     1.64 r
+  fpu_mul/fmul_clken_l_buf1 (fpu_mul)                     0.00       1.64 r
+  fpu_mul/U209/QN (NAND2X0)                               0.08 &     1.72 f
+  fpu_mul/fpu_mul_exp_dp/ckbuf_mul_exp_dp/clken_reg/D (LATCHX1)
+                                                          0.00 &     1.72 f
+  data arrival time                                                  1.72
 
   clock gclk' (rise edge)                                 1.00       1.00
-  clock network delay (propagated)                        0.52       1.52
-  fpu_div/fpu_div_frac_dp/ckbuf_div_frac_dp/clken_reg/CLK (LASRQX1)
-                                                          0.00       1.52 r
-  time borrowed from endpoint                             0.11       1.63
-  data required time                                                 1.63
+  clock network delay (propagated)                        0.53       1.53
+  fpu_mul/fpu_mul_exp_dp/ckbuf_mul_exp_dp/clken_reg/CLK (LATCHX1)
+                                                          0.00       1.53 r
+  time borrowed from endpoint                             0.20       1.72
+  data required time                                                 1.72
   --------------------------------------------------------------------------
-  data required time                                                 1.63
-  data arrival time                                                 -1.63
+  data required time                                                 1.72
+  data arrival time                                                 -1.72
   --------------------------------------------------------------------------
   slack (MET)                                                        0.00
 
   Time Borrowing Information
   --------------------------------------------------------------
   gclk' nominal pulse width                               1.00   
-  clock latency difference                               -0.01   
-  library setup time                                     -0.07   
+  clock latency difference                                0.00   
+  library setup time                                     -0.09   
   --------------------------------------------------------------
-  max time borrow                                         0.92   
-  actual time borrow                                      0.11   
+  max time borrow                                         0.91   
+  actual time borrow                                      0.20   
   --------------------------------------------------------------
 
 

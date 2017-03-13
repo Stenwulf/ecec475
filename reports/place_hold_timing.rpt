@@ -10,7 +10,7 @@ Report : timing
         -max_paths 1
 Design : fpu
 Version: L-2016.03-SP5-1
-Date   : Wed Mar  8 12:53:22 2017
+Date   : Mon Mar 13 14:03:32 2017
 ****************************************
 
  * Some/all delay information is back-annotated.
@@ -21,36 +21,35 @@ Operating Conditions: TYPICAL   Library: saed90nm_typ
 	Extraction mode     : MIN_MAX
 	Extraction derating : 25/25/25
 
-Information: Percent of Arnoldi-based delays = 24.83%
+Information: Percent of Arnoldi-based delays = 25.47%
 
-  Startpoint: cluster_header/I0/sync_cluster_master/q_r_reg
+  Startpoint: fpu_add/fpu_add_ctl/i_a1stg_op/q_reg[6]
               (rising edge-triggered flip-flop clocked by gclk)
-  Endpoint: cluster_header/I0/sync_cluster_slave/so_l_reg
-            (positive level-sensitive latch clocked by gclk')
+  Endpoint: fpu_add/fpu_add_ctl/i_a2stg_opdec/q_reg[10]
+            (rising edge-triggered flip-flop clocked by gclk)
   Path Group: gclk
   Path Type: min
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
-  clock gclk (rise edge)                                  2.00       2.00
-  clock network delay (propagated)                        0.51       2.51
-  cluster_header/I0/sync_cluster_master/q_r_reg/CLK (DFFX1)
-                                                          0.00       2.51 r
-  cluster_header/I0/sync_cluster_master/q_r_reg/QN (DFFX1)
-                                                          0.16       2.67 r
-  cluster_header/I0/sync_cluster_slave/so_l_reg/D (LATCHX1)
-                                                          0.00 &     2.67 r
-  data arrival time                                                  2.67
+  clock gclk (rise edge)                                  0.00       0.00
+  clock network delay (propagated)                        0.45       0.45
+  fpu_add/fpu_add_ctl/i_a1stg_op/q_reg[6]/CLK (DFFX1)     0.00       0.45 r
+  fpu_add/fpu_add_ctl/i_a1stg_op/q_reg[6]/QN (DFFX1)      0.15       0.59 f
+  fpu_add/U1315/Q (AO22X1)                                0.08 &     0.67 f
+  fpu_add/fpu_add_ctl/i_a2stg_opdec/q_reg[10]/D (DFFX1)
+                                                          0.00 &     0.67 f
+  data arrival time                                                  0.67
 
-  clock gclk' (fall edge)                                 2.00       2.00
-  clock network delay (propagated)                        0.52       2.52
-  cluster_header/I0/sync_cluster_slave/so_l_reg/CLK (LATCHX1)
-                                                          0.00       2.52 f
-  library hold time                                      -0.03       2.50
-  data required time                                                 2.50
+  clock gclk (rise edge)                                  0.00       0.00
+  clock network delay (propagated)                        0.50       0.50
+  fpu_add/fpu_add_ctl/i_a2stg_opdec/q_reg[10]/CLK (DFFX1)
+                                                          0.00       0.50 r
+  library hold time                                       0.01       0.50
+  data required time                                                 0.50
   --------------------------------------------------------------------------
-  data required time                                                 2.50
-  data arrival time                                                 -2.67
+  data required time                                                 0.50
+  data arrival time                                                 -0.67
   --------------------------------------------------------------------------
   slack (MET)                                                        0.17
 
